@@ -11,6 +11,12 @@
  */
 ?>
 	</div><!-- #main -->
+	
+	<div class="footer">
+		
+		<img class="logo_footer" src="<?php bloginfo('template_directory');?>/images/beartruth.png"/>
+		
+	</div><!-- footer -->
 
 <?php wp_footer();?>
 

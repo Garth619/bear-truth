@@ -40,11 +40,37 @@ get_header(); ?>
 		<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</span>
 		<a class="learn_more" href="">Learn More</a>
 		
-		<img class="box" src="<?php bloginfo('template_directory');?>/images/entry.jpg"/>
+		<img class="entry_image" src="<?php bloginfo('template_directory');?>/images/entry.jpg"/>
+		
+		
+	</div><!-- my_entry -->
+	
+	
+	<div class="my_entry">
+		
+		<h3>Title</h3>
+		<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</span>
+		<a class="learn_more" href="">Learn More</a>
+		
+		<img class="entry_image" src="<?php bloginfo('template_directory');?>/images/entry.jpg"/>
+		
+		
+	</div><!-- my_entry -->
+	
+	
+	<div class="my_entry">
+		
+		<h3>Title</h3>
+		<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</span>
+		<a class="learn_more" href="">Learn More</a>
+		
+		<img class="entry_image" src="<?php bloginfo('template_directory');?>/images/entry.jpg"/>
 		
 		
 	</div><!-- my_entry -->
 	
 </div><!-- main_feed -->
+
+<div class="sidebar"></div><!-- sidebar -->
 
 <?php get_footer(); ?>
