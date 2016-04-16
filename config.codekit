@@ -10709,6 +10709,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/beartruth\/images\/box1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50072,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/box1.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/box1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/beartruth\/images\/box2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74279,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/box2.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/box2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/beartruth\/images\/box3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60570,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/box3.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/box3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/beartruth\/images\/sc.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -10716,6 +10749,17 @@
 		"initialSize": 6609,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/sc.png",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/sc.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/beartruth\/images\/slide.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117707,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/slide.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/slide.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
