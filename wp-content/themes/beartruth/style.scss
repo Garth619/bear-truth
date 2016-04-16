@@ -14,7 +14,7 @@ Author: Garrett Cullen garrettwcullen@gmail.com
 a {outline: none;}
 a img {border:none}
 
-
+$green:#6bbd45;
 
 
 @mixin border-radius($radius) {
@@ -513,7 +513,33 @@ header {
 	}
 }
 
+.main_feed {
+	margin:0px 10px;
+}
+
 
 h2 {
 	font-weight:400;
+	text-align: center;
+	margin:20px 0;
+}
+
+.my_entry {
+	h3 {
+		color:$green;
+		font-weight: 400;
+	}
+	span {
+		display: inline-block;
+		margin-top:15px;
+	}
+}
+
+.learn_more {
+	background:$green;
+	color:#000;
+	text-decoration: none;
+	margin-top:20px;
+	display: inline-block;
+	padding:2px 8px;
 }

@@ -10742,6 +10742,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/beartruth\/images\/entry.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1842,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/entry.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/entry.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/beartruth\/images\/sc.png": {
 		"fileType": 32768,
 		"ignore": 0,
