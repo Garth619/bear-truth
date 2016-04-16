@@ -55,7 +55,15 @@
 </head>
 
 <body <?php body_class(); ?>>
+	
+	<header>
+		
+		<img class="logo" src="<?php bloginfo('template_directory');?>/images/beartruth.png"/>
+		<img class="sc" src="<?php bloginfo('template_directory');?>/images/sc.png"/>
+		
+	</header>
+	
 
-				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+				<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
 				
 <div id="main">

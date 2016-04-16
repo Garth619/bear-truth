@@ -9,6 +9,11 @@ Author: Garrett Cullen garrettwcullen@gmail.com
 	padding:0;
 }
 
+*, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+a {outline: none;}
+a img {border:none}
+
 
 
 /* =Content
@@ -431,3 +436,24 @@ img.aligncenter {
 }
 
 
+header {
+	display:block;
+	text-align: center;
+	padding:15px 0;
+	border:1px solid #ccc;
+	position:fixed;
+	top:0;
+	z-index:5;
+	width:100%;
+}
+
+.logo {
+	width:150px;
+}
+
+.sc {
+	position: absolute;
+	top:0;
+	left:0;
+	width:30px;
+}
