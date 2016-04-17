@@ -41,6 +41,28 @@
 	</div><!-- footer -->
 
 <?php wp_footer();?>
+<script type="text/javascript">
+	
+	jQuery(document).ready(function(){
+		
+		
+		jQuery('.mobile_menu_wrapper').click(function(){
+			
+			jQuery('.my_nav').slideToggle(200);
+			
+			jQuery('.mobile_menu_wrapper').toggleClass('open');
+			
+			
+			
+			
+		});
+		
+		
+		
+		
+	});
+	
+</script>
 
 </body>
 </html>

@@ -44,6 +44,8 @@
 	
 	<header>
 		
+		<div class="inner_header">
+		
 		<img class="logo" src="<?php bloginfo('template_directory');?>/images/beartruth.png"/>
 <!-- 		<img class="sc" src="<?php bloginfo('template_directory');?>/images/sc.png"/> -->
 
@@ -54,6 +56,18 @@
 			<div class="menu_bar"></div><!-- menu_bar -->
 			
 		</div><!-- mobile_menu_wrapper -->
+		
+		</div><!-- inner_header -->
+		
+		<div class="my_nav">
+			
+			<ul>
+				<li><a href="">One</a></li>
+				<li><a href="">Two</a></li>
+				<li><a href="">Three</a></li>
+							</ul>
+			
+		</div><!-- nav -->
 		
 	</header>
 	

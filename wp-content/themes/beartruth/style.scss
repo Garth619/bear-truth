@@ -460,13 +460,15 @@ img.aligncenter {
 header {
 	display:block;
 	text-align: center;
-	padding:10px 0;
-	border:1px solid #ccc;
 	position:fixed;
 	top:0;
 	z-index:5;
 	width:100%;
 	background: #fff;
+	.inner_header {
+		border-bottom:1px solid #ccc;
+		padding:10px 0;
+	}
 }
 
 .logo {
@@ -491,8 +493,55 @@ header {
 		width:100%;
 		height:5px;
 		margin-bottom:4px;
+		transition:all .2s ease;
 	}
+	&.open {
+		.menu_bar:first-of-type {
+			transform: rotate(45deg);
+			transform-origin: 7px 9px 0;
+			transition:all .2s ease;
+		}
+		
+		.menu_bar:nth-of-type(2) {
+			opacity: 0;
+		}
+		
+		.menu_bar:last-of-type {
+			transform: rotate(-45deg);
+			transform-origin: 7px -2px 0;
+			transition:all .2s ease;
+			
+		}
+	}
+
 }
+
+
+.my_nav {
+	background:#272727;
+	display: none;
+	overflow-y: scroll;
+	position: relative;
+	height:100vh;
+	ul {
+		list-style:none;
+		li {
+			
+			border-bottom:1px solid #404040;
+			
+			a {
+				color:#fff;
+				text-decoration: none;
+				display: block;
+				width:100%;
+				padding:10px;
+				&:hover {
+					color:$green;
+				}
+			}
+		}
+	}
+	}
 
 #main {
 	margin-top:83px;
