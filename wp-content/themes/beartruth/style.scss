@@ -559,7 +559,7 @@ header {
 	.slide {
 		max-width:100%;
 		height:auto;
-// 		@include border-radius(7px);
+
 	}
 }
 
@@ -650,14 +650,14 @@ header {
 
 
 
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 890px) {
 	
 	.mobile_menu_wrapper {
 		display: none;
 	}
 	
 	.inner_header, #main {
-		max-width:1020px;
+		max-width:1060px;
 		margin:0 auto;
 	}
 	
@@ -666,7 +666,7 @@ header {
 		margin-bottom:20px;
 		.inner_header {
 			overflow: hidden;
-			padding:20px 10px;
+			padding:20px;
 		
 			border:none;
 		}
@@ -697,7 +697,78 @@ header {
 	
 	#main {
 		margin-top:0;
+		padding-left:20px;
+		padding-right:20px;
 	}
+	
+.slideshow  {
+	.slide {
+		width:100%;
+		height:auto;
+		@include border-radius(7px);
+	}
+}
+	
+.boxes {
+	margin-top:20px;
+	overflow: hidden;
+	.box {
+		width:32%;
+		margin:0px 2% 0 0;
+		float:left;
+		display: block;
+		@include border-radius(7px);
+		&:last-of-type {
+			margin-right:0px;
+		}
+	}
+}
+
+.main_feed {
+	float:left;
+	width:65%;
+	margin:0;
+}
+
+.sidebar {
+	background: #000;
+	width:32%;
+	height:300px;
+	float:right;
+}
+
+.footer {
+	overflow: hidden;
+}
+
+
+.main_feed {
+	margin:0px 0px;
+	h2 {
+		font-weight:400;
+		text-align: left;
+		margin:20px 0 0;
+		border-bottom:1px #ccc solid;
+		padding-bottom:10px;
+	}
+}
+
+.my_entry {
+	overflow: hidden;
+}
+
+.entry_image {
+	float:left;
+	width:38%;
+	margin-top:0;
+}
+
+.my_entry_content {
+	width:62%;
+	float:right;
+	padding-left: 20px;
+}
+
 	
 	
 	
