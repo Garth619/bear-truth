@@ -55,7 +55,38 @@
 			<div class="menu_bar"></div><!-- menu_bar -->
 			<div class="menu_bar"></div><!-- menu_bar -->
 			
+			
+			
 		</div><!-- mobile_menu_wrapper -->
+		
+		
+		<div class="header_right">
+		
+			<div class="social_media_wrapper">
+				
+				<a href="" target="_blank"><img class="social_icon" src="<?php bloginfo('template_directory');?>/images/icon.jpg"/></a>
+				<a href="" target="_blank"><img class="social_icon" src="<?php bloginfo('template_directory');?>/images/icon.jpg"/></a>
+				<a href="" target="_blank"><img class="social_icon" src="<?php bloginfo('template_directory');?>/images/icon.jpg"/></a>
+				<a href="" target="_blank"><img class="social_icon" src="<?php bloginfo('template_directory');?>/images/icon.jpg"/></a>
+				
+			
+				
+			</div><!-- social_media_wrapper -->
+			
+			<div class="sc_desktop_wrapper">
+			
+				<img class="sc_desktop" src="<?php bloginfo('template_directory');?>/images/sc.png"/>
+				<span>Shopping Cart | Checkout</span>
+				
+			</div><!-- sc_desktop_wrapper -->
+			
+			<div class="signup">
+				
+				<span>Sign Up for Latest Updates!</span>
+				
+			</div><!-- signup -->
+			
+		</div><!-- header_right -->
 		
 		</div><!-- inner_header -->
 		

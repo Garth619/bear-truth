@@ -648,6 +648,10 @@ header {
 	}
 }
 
+.social_media_wrapper {
+	display: none;
+}
+
 
 
 @media screen and (min-width: 890px) {
@@ -656,7 +660,7 @@ header {
 		display: none;
 	}
 	
-	.inner_header, #main {
+	.inner_header, #main, .inner_footer {
 		max-width:1060px;
 		margin:0 auto;
 	}
@@ -733,13 +737,11 @@ header {
 .sidebar {
 	background: #000;
 	width:32%;
-	height:300px;
+	height:400px;
 	float:right;
 }
 
-.footer {
-	overflow: hidden;
-}
+
 
 
 .main_feed {
@@ -769,7 +771,69 @@ header {
 	padding-left: 20px;
 }
 
+.sidebar {
+	margin-top:20px;
+	@include border-radius(7px);
 	
+}
+
+
+.footer {
+	overflow: hidden;
+	.inner_footer {
+		overflow: hidden;
+	}
+	.copy {
+		clear: both;
+		padding-top:45px;
+	}
+}
+
+
+
+.logo_footer {
+	float:left;
+	width:267px;
+}
+
+.footer_col {
+	float:left;
+	margin:0 0 0 20%;
+	h2 {
+		margin-bottom:15px;
+	}
+}
+
+
+.header_right {
+	float:right;
+	.social_media_wrapper {
+		display: block;
+		float:right;
+		.social_icon {
+			width:25px;
+			float:left;
+			margin-left:7px;
+		}
+	}
+	.sc_desktop_wrapper {
+		float:right;
+		clear:right;
+		margin-top:10px;
+	}
+	.signup {
+		float:right;
+		clear:right;
+		margin-top:5px;
+	}
+}
+
+.sc_desktop {
+		width:20px;
+	}
 	
-	
+
+
+
+
 }
