@@ -16,6 +16,28 @@
 		
 		<img class="logo_footer" src="<?php bloginfo('template_directory');?>/images/beartruth.png"/>
 		
+		<div class="footer_col">
+		<h2>Follow Us</h2>
+		<ul>
+			<li>Facebook</li>
+			<li>Twitter</li>
+			<li>Instagram</li>
+			<li>Google Plus</li>
+		</ul>
+		</div><!-- footet_col1 -->
+		
+		<div class="footer_col">
+		<h2>Company</h2>
+		<ul>
+			<li>Facebook</li>
+			<li>Twitter</li>
+			<li>Instagram</li>
+			<li>Google Plus</li>
+		</ul>
+		</div><!-- footet_col1 -->
+		
+		<span class="copy">&copy; 2016 Bear Truth Collective, LLC. All Rights Reserved</span>
+		
 	</div><!-- footer -->
 
 <?php wp_footer();?>

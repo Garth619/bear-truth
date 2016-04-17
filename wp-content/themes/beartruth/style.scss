@@ -567,11 +567,26 @@ header {
 .footer {
 	background: $green;
 	width:100%;
-	height:500px;
 	text-align: center;
-	padding:25px;
+	padding:40px;
+	.copy {
+		margin-top:30px;
+		font-size:13px;
+		display: block;
+	}
 }
 
 .logo_footer {
 	width:130px;
+}
+
+
+.footer_col {
+	margin-top:25px;
+	ul {
+		list-style:none;
+		li {
+			
+		}
+	}
 }
