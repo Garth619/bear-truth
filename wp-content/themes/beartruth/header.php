@@ -65,9 +65,21 @@
 				<li><a href="">One</a></li>
 				<li><a href="">Two</a></li>
 				<li><a href="">Three</a></li>
-							</ul>
+			</ul>
 			
 		</div><!-- nav -->
+		
+		<div class="desktop_nav">
+			
+			<ul>
+				<li><a href="">One</a></li>
+				<li><a href="">Two</a></li>
+				<li><a href="">Three</a></li>
+			</ul>
+			
+		</div><!-- desktop_nav -->
+		
+		
 		
 	</header>
 	
