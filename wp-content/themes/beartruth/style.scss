@@ -660,7 +660,7 @@ header {
 		display: none;
 	}
 	
-	.inner_header, #main, .inner_footer {
+	.inner_header, #main, .inner_footer, .top_nav_bar {
 		max-width:1060px;
 		margin:0 auto;
 	}
@@ -685,15 +685,30 @@ header {
 		display: block;
 		width:100%;
 		background:$green;
-		ul {
-			list-style: none;
-			li {
-				display:inline-block;
-				a {
-					color:#000;
-					text-decoration: none;
-					padding:3px 40%;
-					display: block;
+		
+		.top_nav_bar {
+			padding:0 20px;
+			overflow: hidden;
+			ul {
+				list-style: none;
+				li {
+					display:inline-block;
+					margin-right: 13.5%;
+					a {
+						color:#000;
+						text-decoration: none;
+						padding:3px 0%;
+						display: block;
+						font-size: 19px;
+						font-weight:700;
+						&:hover {
+							color:#fff;
+						}
+					}
+				&:last-child {
+					margin-right: 0%;
+				}
+				
 				}
 			}
 		}

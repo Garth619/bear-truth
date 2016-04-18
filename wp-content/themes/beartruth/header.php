@@ -84,6 +84,7 @@
 				
 				<span>Sign Up for Latest Updates!</span>
 				
+				
 			</div><!-- signup -->
 			
 		</div><!-- header_right -->
@@ -102,11 +103,11 @@
 		
 		<div class="desktop_nav">
 			
-			<ul>
-				<li><a href="">One</a></li>
-				<li><a href="">Two</a></li>
-				<li><a href="">Three</a></li>
-			</ul>
+			<div class="top_nav_bar">
+			
+				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+		
+			</div><!-- top_nav_bar -->
 			
 		</div><!-- desktop_nav -->
 		
@@ -115,6 +116,6 @@
 	</header>
 	
 
-				<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+				
 				
 <div id="main">
