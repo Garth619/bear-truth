@@ -685,7 +685,7 @@ header {
 		display: block;
 		width:100%;
 		background:$green;
-		
+		position:relative;
 		.top_nav_bar {
 			padding:0 20px;
 			overflow: hidden;
@@ -694,6 +694,24 @@ header {
 				li {
 					display:inline-block;
 					margin-right: 13.5%;
+					ul.sub-menu {
+						position:absolute;
+						top:29px;
+						background: $green;
+						text-align: left;
+						margin-left: -9px;
+						display:none;
+						li {
+							border-top:1px solid #fff;
+							width:100%;
+							a {
+								display: block;
+								width:100%;
+								padding-left:10px;
+								padding-right:10px;
+							}
+						}
+					}
 					a {
 						color:#000;
 						text-decoration: none;
@@ -708,6 +726,10 @@ header {
 				&:last-child {
 					margin-right: 0%;
 				}
+				&:hover > ul.sub-menu {
+					display:block;
+				}
+				
 				
 				}
 			}
