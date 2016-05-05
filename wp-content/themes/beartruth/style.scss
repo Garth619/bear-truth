@@ -693,7 +693,7 @@ header {
 	img {
 		max-width:100%;
 		height:auto;
-		@include border-radius(7px);
+		
 	}
 	
 }
@@ -705,6 +705,19 @@ header {
 }
 
 @media screen and (min-width: 890px) {
+	
+	
+	
+	.inner_banner {
+	img {
+		
+		@include border-radius(7px);
+	}
+	
+}
+	
+	
+	
 	
 	.mobile_menu_wrapper {
 		display: none;
