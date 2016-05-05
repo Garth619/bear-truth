@@ -20,20 +20,20 @@
 			<div class="footer_col">
 			<h2>Follow Us</h2>
 			<ul>
-				<li>Facebook</li>
-				<li>Twitter</li>
-				<li>Instagram</li>
-				<li>Google Plus</li>
+				<li><a href="">Facebook</a></li>
+				<li><a href="">Twitter</a></li>
+				<li><a href="">Instagram</a></li>
+				<li><a href="">Google Plus</a></li>
 			</ul>
 			</div><!-- footet_col1 -->
 			
 			<div class="footer_col">
 			<h2>Company</h2>
 			<ul>
-				<li>Facebook</li>
-				<li>Twitter</li>
-				<li>Instagram</li>
-				<li>Google Plus</li>
+				<li><a href="">Facebook</a></li>
+				<li><a href="">Twitter</a></li>
+				<li><a href="">Instagram</a></li>
+				<li><a href="">Google Plus</a></li>
 			</ul>
 			</div><!-- footet_col1 -->
 			
@@ -42,6 +42,7 @@
 	</div><!-- footer -->
 
 <?php wp_footer();?>
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/cycle2.js"></script>
 <script type="text/javascript">
 	
 	jQuery(document).ready(function(){
@@ -53,13 +54,11 @@
 			
 			jQuery('.mobile_menu_wrapper').toggleClass('open');
 			
-			
-			
-			
-			
-			
 		});
 		
+		
+		
+					
 		
 		
 		

@@ -464,7 +464,7 @@ header {
 	text-align: center;
 	position:fixed;
 	top:0;
-	z-index:5;
+	z-index:200;
 	width:100%;
 	background: #fff;
 	.inner_header {
@@ -555,6 +555,14 @@ header {
 	margin-top:83px;
 }
 
+.slideshow_wrapper {
+	position: relative;
+}
+
+.slide_controls {
+	display: none;
+}
+
 .slideshow  {
 	.slide {
 		max-width:100%;
@@ -562,6 +570,8 @@ header {
 
 	}
 }
+
+
 
 .boxes {
 	.box {
@@ -589,6 +599,10 @@ header {
 	h3 {
 		color:$green;
 		font-weight: 400;
+		a {
+			color: $green;
+			text-decoration: none;
+		}
 	}
 	span {
 		display: inline-block;
@@ -607,6 +621,7 @@ header {
 	margin-top:20px;
 	display: inline-block;
 	padding:2px 8px;
+	line-height: 1;
 }
 
 .entry_image {
@@ -643,12 +658,20 @@ header {
 	ul {
 		list-style:none;
 		li {
-			
+			a {
+				color:#000;
+				text-decoration: none;
+			}
+			a:hover {
+				color:#fff;
+			}
 		}
 	}
 }
 
-.social_media_wrapper {
+
+
+.header_right {
 	display: none;
 }
 
@@ -701,6 +724,7 @@ header {
 						text-align: left;
 						margin-left: -9px;
 						display:none;
+						z-index:175;
 						li {
 							border-top:1px solid #fff;
 							width:100%;
@@ -742,26 +766,67 @@ header {
 		padding-right:20px;
 	}
 	
+	.slide_controls {
+		display: block;
+		position: relative;
+		z-index:150;
+		color:#fff;
+		bottom:0;
+		text-align: center;
+		 margin-top: -50px;
+		.slide_buttons {
+			cursor: pointer;
+			display: inline-block;
+			img {
+				width:15px;
+			}
+			
+		}
+		.prev {
+				margin-right:2px;
+			}
+			.next {
+				margin-left:2px;
+			}
+			
+			.my_pager {
+				span {
+					cursor: pointer;
+					font-size:20px;
+				}
+				span:hover {
+					color:$green;
+				}
+				span.cycle-pager-active {
+					color:$green;
+				}
+			}
+	}
+	
 .slideshow  {
+	height:399px;
 	.slide {
 		width:100%;
 		height:auto;
 		@include border-radius(7px);
 	}
+	
 }
 	
 .boxes {
 	margin-top:20px;
 	overflow: hidden;
-	.box {
-		width:32%;
-		margin:0px 2% 0 0;
-		float:left;
-		display: block;
-		@include border-radius(7px);
+	a {
+	display: block;
+	width:32%;
+	margin:0px 2% 0 0;
+	float:left;
 		&:last-of-type {
 			margin-right:0px;
 		}
+	.box {
+		@include border-radius(7px);
+	}
 	}
 }
 
@@ -844,8 +909,9 @@ header {
 
 .header_right {
 	float:right;
+	display: block;
 	.social_media_wrapper {
-		display: block;
+		
 		float:right;
 		.social_icon {
 			width:25px;
@@ -857,6 +923,7 @@ header {
 		float:right;
 		clear:right;
 		margin-top:10px;
+		display: block;
 	}
 	.signup {
 		float:right;
