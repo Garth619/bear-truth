@@ -20,12 +20,12 @@ get_header(); ?>
 	
 	
 	
-	<div class="slideshow cycle-slideshow" data-cycle-prev=".prev" data-cycle-next=".next" data-cycle-pager=".my_pager">
+	<div class="slideshow cycle-slideshow" data-cycle-prev=".prev" data-cycle-next=".next" data-cycle-pager=".my_pager" data-cycle-swipe=true data-cycle-swipe-fx=scrollHorz>
 	
 		<img class="slide" src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
-		<img class="slide" src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
-		<img class="slide" src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
-		<img class="slide" src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
+		<img class="slide" src="<?php bloginfo('template_directory');?>/images/slide2.png"/>
+		<img class="slide" src="<?php bloginfo('template_directory');?>/images/slide3.png"/>
+		<img class="slide" src="<?php bloginfo('template_directory');?>/images/slide4.png"/>
 	
 	</div><!-- cycle-slideshow -->
 	

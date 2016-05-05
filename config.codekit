@@ -18347,14 +18347,14 @@
 		},
 	"\/wp-content\/themes\/beartruth\/cycle2.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/cycle2.js",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/min\/cycle2-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/wp-content\/themes\/beartruth\/editor-style-rtl.css": {
 		"fileType": 16,
@@ -18518,6 +18518,39 @@
 		"initialSize": 117707,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/slide.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/slide.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/beartruth\/images\/slide2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3888,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/slide2.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/slide2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/beartruth\/images\/slide3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3941,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/slide3.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/slide3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/beartruth\/images\/slide4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3814,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/slide4.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/slide4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
