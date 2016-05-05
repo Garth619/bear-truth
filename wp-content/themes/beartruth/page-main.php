@@ -52,58 +52,31 @@ get_header(); ?>
 	
 	<h2>Some Title For the Feed</h2>
 	
-		<div class="my_entry">
-		
-		<div class="my_entry_content">
-		
-			<h3><a href="">Title</a></h3>
-			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</span>
-			<a class="learn_more" href="">Learn More</a>
-		
-		</div><!-- my_entry_content -->
-		
-		<a href=""><img class="entry_image" src="<?php bloginfo('template_directory');?>/images/entry.jpg"/></a>
-		
-		
-	</div><!-- my_entry -->
+	<?php $mymain_query = new WP_Query( array( 'post_type' => array ( 'main_blog', 'art', 'freebies_contests' ),'posts_per_page' => '3', 'order' => 'DSC' ) ); while($mymain_query->have_posts()) : $mymain_query->the_post(); ?>
+	
 	
 	<div class="my_entry">
 		
 		<div class="my_entry_content">
 		
-			<h3><a href="">Title</a></h3>
+			<h3><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
 			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</span>
-			<a class="learn_more" href="">Learn More</a>
+			<a class="learn_more" href="<?php the_permalink();?>">Learn More</a>
 		
 		</div><!-- my_entry_content -->
 		
-		<a href=""><img class="entry_image" src="<?php bloginfo('template_directory');?>/images/entry.jpg"/></a>
+		<a href="<?php the_permalink();?>"><img class="entry_image" src="<?php bloginfo('template_directory');?>/images/entry.jpg"/></a>
 		
 		
 	</div><!-- my_entry -->
-	
-	<div class="my_entry">
-		
-		<div class="my_entry_content">
-		
-			<h3><a href="">Title</a></h3>
-			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</span>
-			<a class="learn_more" href="">Learn More</a>
-		
-		</div><!-- my_entry_content -->
-		
-		<a href=""><img class="entry_image" src="<?php bloginfo('template_directory');?>/images/entry.jpg"/></a>
-		
-		
-	</div><!-- my_entry -->
-	
-	
-
-	
+ 
+ 
+ <?php endwhile; ?>
+ <?php wp_reset_postdata(); // reset the query ?>
 
 	
 </div><!-- main_feed -->
 
-<div class="sidebar"></div><!-- sidebar -->
+<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

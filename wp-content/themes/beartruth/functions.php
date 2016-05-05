@@ -119,7 +119,7 @@ function my_jquery_enqueue() {
    	 
 	function main_blog() {    
     	$args = array(    
-        	'label' => __('Main Blog Post'),    
+        	'label' => __('Main Blog Posts'),    
         	'singular_label' => __('Main Blog Post'),    
         	'public' => true,    
         	'show_ui' => true,
@@ -132,7 +132,52 @@ function my_jquery_enqueue() {
    	 
     	register_post_type( 'main_blog' , $args );    
 	}    
-	register_taxonomy("project-type", array("main_blog"), array("hierarchical" => true, "label" => "Blog Posts Cat", "singular_label" => "Blog Post", "rewrite" => true)); 
+	register_taxonomy("main-blog-cat", array("main_blog"), array("hierarchical" => true, "label" => "Blog Posts Cat", "singular_label" => "Blog Post", "rewrite" => true)); 
+	
+	
+	
+	
+    	add_action('init', 'art');    
+   	 
+	function art() {    
+    	$args = array(    
+        	'label' => __('Art Posts'),    
+        	'singular_label' => __('Art Post'),    
+        	'public' => true,    
+        	'show_ui' => true,
+        	'has_archive' => true,	 
+        	'capability_type' => 'post',    
+        	'hierarchical' => false,    
+        	'rewrite' => true,    
+        	'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )    
+       	);    
+   	 
+    	register_post_type( 'art' , $args );    
+	}    
+	register_taxonomy("art-cat", array("art"), array("hierarchical" => true, "label" => "Art Posts Cat", "singular_label" => "Art Post", "rewrite" => true)); 
+	
+	
+	
+	
+	
+		add_action('init', 'freebies_contests');    
+   	 
+	function freebies_contests() {    
+    	$args = array(    
+        	'label' => __('Freebies and Contests Posts'),    
+        	'singular_label' => __('Freebies and Contests Post'),    
+        	'public' => true,    
+        	'show_ui' => true,
+        	'has_archive' => true,	 
+        	'capability_type' => 'post',    
+        	'hierarchical' => false,    
+        	'rewrite' => true,    
+        	'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )    
+       	);    
+   	 
+    	register_post_type( 'freebies_contests' , $args );    
+	}    
+	register_taxonomy("freebies-contests-cat", array("freebies_contests"), array("hierarchical" => true, "label" => "Freebies and Contests Cat", "singular_label" => "Freebies and Contests Post", "rewrite" => true)); 
 
 	
 	

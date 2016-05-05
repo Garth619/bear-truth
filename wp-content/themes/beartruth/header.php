@@ -47,7 +47,7 @@
 		
 		<div class="inner_header">
 		
-		<img class="logo" src="<?php bloginfo('template_directory');?>/images/beartruth.png"/>
+		<a href="<?php bloginfo('url');?>"><img class="logo" src="<?php bloginfo('template_directory');?>/images/beartruth.png"/></a>
 <!-- 		<img class="sc" src="<?php bloginfo('template_directory');?>/images/sc.png"/> -->
 
 		<div class="mobile_menu_wrapper">

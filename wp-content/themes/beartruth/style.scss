@@ -631,6 +631,11 @@ header {
 	line-height: 1;
 }
 
+.learn_more:hover {
+	color:#fff;
+	text-decoration: none;
+}
+
 .entry_image {
 	width:100%;
 	margin-top:25px;
@@ -833,7 +838,7 @@ header {
 	}
 	
 .slideshow  {
-	height:399px;
+// 	height:399px; bug
 	.slide {
 		width:100%;
 		height:auto;
