@@ -47,9 +47,9 @@
 		});
 		
 		
-		
-					
-		
+		jQuery('body').delay(800).queue(function(){
+			jQuery(this).addClass('fadein').clearQueue();
+		});
 		
 		
 	});
