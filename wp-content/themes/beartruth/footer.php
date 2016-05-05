@@ -19,22 +19,12 @@
 			
 			<div class="footer_col">
 			<h2>Follow Us</h2>
-			<ul>
-				<li><a href="">Facebook</a></li>
-				<li><a href="">Twitter</a></li>
-				<li><a href="">Instagram</a></li>
-				<li><a href="">Google Plus</a></li>
-			</ul>
+			<?php wp_nav_menu( array( 'container_class' => 'menu-header2', 'theme_location' => 'footer1' ) ); ?>
 			</div><!-- footet_col1 -->
 			
 			<div class="footer_col">
 			<h2>Company</h2>
-			<ul>
-				<li><a href="">Facebook</a></li>
-				<li><a href="">Twitter</a></li>
-				<li><a href="">Instagram</a></li>
-				<li><a href="">Google Plus</a></li>
-			</ul>
+			<?php wp_nav_menu( array( 'container_class' => 'menu-header3', 'theme_location' => 'footer2' ) ); ?>
 			</div><!-- footet_col1 -->
 			
 			<span class="copy">&copy; 2016 Bear Truth Collective, LLC. All Rights Reserved</span>

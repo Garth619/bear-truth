@@ -93,6 +93,8 @@ function twentyten_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => __( 'Primary Navigation', 'twentyten' ),
+		'footer1' => __( 'Footer One', 'twentyten' ),
+		'footer2' => __( 'Footer Two', 'twentyten' ),
 	) );
 
 	// This theme allows users to set a custom background.
@@ -110,6 +112,27 @@ function my_jquery_enqueue() {
    wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", false, null);
    wp_enqueue_script('jquery');
 }
+
+
+ 	// number one
+    	add_action('init', 'main_blog');    
+   	 
+	function main_blog() {    
+    	$args = array(    
+        	'label' => __('Main Blog Post'),    
+        	'singular_label' => __('Main Blog Post'),    
+        	'public' => true,    
+        	'show_ui' => true,
+        	'has_archive' => true,	 
+        	'capability_type' => 'post',    
+        	'hierarchical' => false,    
+        	'rewrite' => true,    
+        	'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )    
+       	);    
+   	 
+    	register_post_type( 'main_blog' , $args );    
+	}    
+	register_taxonomy("project-type", array("main_blog"), array("hierarchical" => true, "label" => "Blog Posts Cat", "singular_label" => "Blog Post", "rewrite" => true)); 
 
 	
 	

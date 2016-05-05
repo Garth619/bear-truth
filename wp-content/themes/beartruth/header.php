@@ -94,11 +94,7 @@
 		
 		<div class="my_nav">
 			
-			<ul>
-				<li><a href="">One</a></li>
-				<li><a href="">Two</a></li>
-				<li><a href="">Three</a></li>
-			</ul>
+			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
 			
 		</div><!-- nav -->
 		
