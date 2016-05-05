@@ -688,6 +688,7 @@ header {
 	img {
 		max-width:100%;
 		height:auto;
+		@include border-radius(7px);
 	}
 	
 }
@@ -774,12 +775,19 @@ header {
 				&:hover > ul.sub-menu {
 					display:block;
 				}
+				&.current_page_item {
+					> a {
+						color:#fff !important;
+					}
+				}
 				
 				
 				}
 			}
 		}
 	}
+	
+	
 	
 	#main {
 		margin-top:0;
@@ -849,6 +857,12 @@ header {
 		@include border-radius(7px);
 	}
 	}
+}
+
+.inner_content {
+	
+	
+	padding:30px 0px 10px;
 }
 
 .main_feed {

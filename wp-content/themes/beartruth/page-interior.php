@@ -32,6 +32,12 @@ get_header(); ?>
 	
 	
 </div><!-- innner_content -->
+
+
+<?php if(is_page( array( 11, 13, 15 ) ) ):?>
+
+
+
 <div class="main_feed">
 	
 	<h2>Some Title For the Feed</h2>
@@ -88,6 +94,10 @@ get_header(); ?>
 	
 </div><!-- main_feed -->
 
+
+
 <div class="sidebar"></div><!-- sidebar -->
+
+<?php endif;?>
 
 <?php get_footer(); ?>
