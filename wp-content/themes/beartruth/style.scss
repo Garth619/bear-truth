@@ -11,8 +11,7 @@ Author: Garrett Cullen garrettwcullen@gmail.com
 
 *, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 
-a {outline: none;}
-a img {border:none}
+
 
 $green:#6bbd45;
 
@@ -23,6 +22,10 @@ $green:#6bbd45;
       -ms-border-radius: $radius;
           border-radius: $radius;
 }
+
+a {outline: none;color:$green;text-decoration: none}
+a:hover {text-decoration: underline;}
+a img {border:none}
 
 
 img {
@@ -39,7 +42,7 @@ body {
 -------------------------------------------------------------- */
 
 #content {
-	margin-bottom: 36px;
+
 }
 #content,
 #content input,
@@ -55,6 +58,10 @@ body {
 #content pre,
 #content hr {
 	margin-bottom: 24px;
+}
+
+#content ul, #content ol {
+	margin-left:20px;
 }
 #content ul ul,
 #content ol ol,
@@ -675,7 +682,21 @@ header {
 	display: none;
 }
 
+/* interior */
 
+.inner_banner {
+	img {
+		max-width:100%;
+		height:auto;
+	}
+	
+}
+
+.inner_content {
+	width:100%;
+	
+	padding:30px 10px 10px;
+}
 
 @media screen and (min-width: 890px) {
 	

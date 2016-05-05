@@ -15,21 +15,23 @@
 get_header(); ?>
 
 
-<div class="slideshow">
-	
-	
-	<img class="slide" src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
-	
-</div><!-- slideshow -->
 
-<div class="boxes">
+<div class="inner_banner">
 	
-	<img class="box" src="<?php bloginfo('template_directory');?>/images/box1.jpg"/>
-	<img class="box" src="<?php bloginfo('template_directory');?>/images/box2.jpg"/>
-	<img class="box" src="<?php bloginfo('template_directory');?>/images/box3.jpg"/>
+	<img src="<?php bloginfo('template_directory');?>/images/banner.png"/>
 	
-</div><!-- boxes -->
+</div><!-- inner_banner -->
 
+<div class="inner_content">
+	
+	<div id="content">
+
+			<?php get_template_part( 'loop', 'page' );?>
+
+		</div><!-- #content -->
+	
+	
+</div><!-- innner_content -->
 <div class="main_feed">
 	
 	<h2>Some Title For the Feed</h2>
@@ -38,61 +40,50 @@ get_header(); ?>
 		
 		<div class="my_entry_content">
 		
-			<h3>Title</h3>
+			<h3><a href="">Title</a></h3>
 			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</span>
 			<a class="learn_more" href="">Learn More</a>
 		
 		</div><!-- my_entry_content -->
 		
-		<img class="entry_image" src="<?php bloginfo('template_directory');?>/images/entry.jpg"/>
+		<a href=""><img class="entry_image" src="<?php bloginfo('template_directory');?>/images/entry.jpg"/></a>
 		
 		
 	</div><!-- my_entry -->
-
+	
 	<div class="my_entry">
 		
 		<div class="my_entry_content">
 		
-			<h3>Title</h3>
+			<h3><a href="">Title</a></h3>
 			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</span>
 			<a class="learn_more" href="">Learn More</a>
 		
 		</div><!-- my_entry_content -->
 		
-		<img class="entry_image" src="<?php bloginfo('template_directory');?>/images/entry.jpg"/>
+		<a href=""><img class="entry_image" src="<?php bloginfo('template_directory');?>/images/entry.jpg"/></a>
 		
 		
 	</div><!-- my_entry -->
-
+	
 	<div class="my_entry">
 		
 		<div class="my_entry_content">
 		
-			<h3>Title</h3>
+			<h3><a href="">Title</a></h3>
 			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</span>
 			<a class="learn_more" href="">Learn More</a>
 		
 		</div><!-- my_entry_content -->
 		
-		<img class="entry_image" src="<?php bloginfo('template_directory');?>/images/entry.jpg"/>
+		<a href=""><img class="entry_image" src="<?php bloginfo('template_directory');?>/images/entry.jpg"/></a>
 		
 		
 	</div><!-- my_entry -->
+	
+	
 
-	<div class="my_entry">
-		
-		<div class="my_entry_content">
-		
-			<h3>Title</h3>
-			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</span>
-			<a class="learn_more" href="">Learn More</a>
-		
-		</div><!-- my_entry_content -->
-		
-		<img class="entry_image" src="<?php bloginfo('template_directory');?>/images/entry.jpg"/>
-		
-		
-	</div><!-- my_entry -->
+	
 
 	
 </div><!-- main_feed -->
