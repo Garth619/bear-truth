@@ -38,6 +38,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 	
 </div><!-- innner_content -->
 
+
+<div class="video_link_wrapper">
+
 <div class="paul_video">
 		
 		<div class='embed-container'>
@@ -51,6 +54,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 	<img src="<?php bloginfo('template_directory');?>/images/paul-link.jpg"/>
 	
 	</div><!-- paul_link -->
+	
+</div><!-- video_link_wrapper -->
 	
 	<div class="characters">
 		
