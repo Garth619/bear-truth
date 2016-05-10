@@ -42,9 +42,9 @@ get_header(); ?>
 
 <div class="boxes">
 	
-	<a href=""><img class="box" src="<?php bloginfo('template_directory');?>/images/box1.jpg"/></a>
-	<a href=""><img class="box" src="<?php bloginfo('template_directory');?>/images/box2.jpg"/></a>
-	<a href=""><img class="box" src="<?php bloginfo('template_directory');?>/images/box3.jpg"/></a>
+	<a href="<?php bloginfo('url');?>/paul-a-graphic-novel"><img class="box" src="<?php bloginfo('template_directory');?>/images/box1.jpg"/></a>
+	<a href="<?php bloginfo('url');?>/art-blog"><img class="box" src="<?php bloginfo('template_directory');?>/images/box2.jpg"/></a>
+	<a href="<?php bloginfo('url');?>/freebies-and-contests"><img class="box" src="<?php bloginfo('template_directory');?>/images/box3.jpg"/></a>
 	
 </div><!-- boxes -->
 
