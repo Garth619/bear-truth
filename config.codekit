@@ -18491,6 +18491,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/beartruth\/images\/pauo-link.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6244,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/pauo-link.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/pauo-link.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/beartruth\/images\/right.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -18553,6 +18564,17 @@
 		"initialSize": 3814,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/slide4.png",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/slide4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/beartruth\/images\/square.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10204,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/square.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/square.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

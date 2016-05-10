@@ -60,7 +60,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 			
 			<div class="charater_img_wrapper">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/paul-link.jpg">
+				<img src="<?php bloginfo('template_directory');?>/images/square.jpg">
 			
 			</div><!-- charater_img_wrapper -->
 			
@@ -76,7 +76,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 			
 			<div class="charater_img_wrapper">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/paul-link.jpg">
+				<img src="<?php bloginfo('template_directory');?>/images/square.jpg">
 			
 			</div><!-- charater_img_wrapper -->
 			
@@ -92,7 +92,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 			
 			<div class="charater_img_wrapper">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/paul-link.jpg">
+				<img src="<?php bloginfo('template_directory');?>/images/square.jpg">
 			
 			</div><!-- charater_img_wrapper -->
 			
@@ -108,7 +108,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 			
 			<div class="charater_img_wrapper">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/paul-link.jpg">
+				<img src="<?php bloginfo('template_directory');?>/images/square.jpg">
 			
 			</div><!-- charater_img_wrapper -->
 			
@@ -124,7 +124,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 			
 			<div class="charater_img_wrapper">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/paul-link.jpg">
+				<img src="<?php bloginfo('template_directory');?>/images/square.jpg">
 			
 			</div><!-- charater_img_wrapper -->
 			
@@ -140,7 +140,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 			
 			<div class="charater_img_wrapper">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/paul-link.jpg">
+				<img src="<?php bloginfo('template_directory');?>/images/square.jpg">
 			
 			</div><!-- charater_img_wrapper -->
 			
@@ -162,9 +162,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <div class="paul_boxes">
 	
-	<img src="<?php bloginfo('template_directory');?>/images/paul-link.jpg">
-	<img src="<?php bloginfo('template_directory');?>/images/paul-link.jpg">
-	<img src="<?php bloginfo('template_directory');?>/images/paul-link.jpg">
+	<a href=""><img src="<?php bloginfo('template_directory');?>/images/square.jpg"></a>
+	<a href=""><img src="<?php bloginfo('template_directory');?>/images/square.jpg"></a>
+	<a href=""><img src="<?php bloginfo('template_directory');?>/images/square.jpg"></a>
 	
 </div><!-- paul_boxes -->
 
