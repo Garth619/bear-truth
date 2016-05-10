@@ -790,10 +790,16 @@ header {
 				border:1px #ccc solid;
 				padding:5px 0px 5px 10px;
 				height:auto !important;
+				font-family: arial;
+				font-size:15px;
 			}
 			textarea {
 				border:1px #ccc solid;
 				width:100%;
+				font-family: arial;
+				font-size:15px;
+				padding:0px 0px 0px 10px;
+				height:125px;
 			}
 		}
 	}
@@ -1258,6 +1264,11 @@ li#field_1_6 label.gfield_label {
 .sc_desktop {
 		width:20px;
 	}
+	
+	
+.gform_wrapper {
+	width:50%;
+}
 	
 
 
