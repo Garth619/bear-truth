@@ -776,11 +776,13 @@ header {
 
 @media screen and (min-width: 645px) {
 	
+
 	.charater_img_wrapper {
 		img {
-			width: 300px;
+			 max-width: 49%;
 		}
 	}
+
 
 
 .characters {
@@ -797,6 +799,15 @@ header {
 	width:50%;
 	float:left;
 }
+
+.paul_boxes {
+		overflow: hidden;
+		img {
+			float:left;
+			width:33.3333333%;
+			@include border-radius(7px);
+		}
+	}
 	
 	
 }
@@ -804,15 +815,69 @@ header {
 
 @media screen and (min-width: 820px) {
 	
-	.single_character {
-		float:left;
-		width:33.33333333%;
+	
+
+	.paul_video {
+		padding-right:3%;
+		width:50%;
+		
+	}
+	
+	.embed-container {
+    padding-bottom: 58.75%;
+    @include border-radius(7px);
+   }
+
+	
+	.paul_link {
+		padding-right:1%;
+		width:50%;
+		img {
+			@include border-radius(7px);
+		}
 	}
 	
 	.characters {
+	text-align: left;
 	width:100%;
-	
 }
+
+.charater_img_wrapper {
+		img {
+			 max-width: 100%;
+		}
+	}
+	
+	.single_character {
+		float:left;
+		width:27.33333333%;
+		margin-right:9%;
+		img {
+			@include border-radius(7px);
+		}
+	}
+	
+	.single_character:nth-of-type(3n + 3) {
+		margin-right:0;
+	}
+	
+	
+	
+	
+	.charater_img_wrapper {
+		img {
+			margin: 0 auto 20px;
+		}
+	}
+	
+	.paul_boxes {
+		margin-top:20px;
+	}
+	
+	
+	
+	
+	
 	
 	
 	
@@ -824,12 +889,10 @@ header {
 	
 	
 	.inner_banner {
-	img {
-		
-		@include border-radius(7px);
+		img {
+			@include border-radius(7px);
+		}
 	}
-	
-}
 	
 	
 	
