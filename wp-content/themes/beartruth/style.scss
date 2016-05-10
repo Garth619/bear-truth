@@ -777,6 +777,53 @@ header {
 	}
 }
 
+.gform_wrapper {
+	width:100%;
+	ul {
+		list-style: none;
+		margin: 0 !important;
+		li {
+			width:100%;
+			margin-bottom:15px;
+			input {
+				width:100%;
+				border:1px #ccc solid;
+				padding:5px 0px 5px 10px;
+				height:auto !important;
+			}
+			textarea {
+				border:1px #ccc solid;
+				width:100%;
+			}
+		}
+	}
+}
+
+li#field_1_6 label.gfield_label {
+	display: none;
+}
+
+.gform_button {
+	background: $green;
+	border:none;
+	padding:4px 16px;
+	cursor:pointer;
+}
+
+.gform_button:hover {
+	color:#fff !important;
+}
+
+.gfield_description {
+	color:red;
+	font-size:13px;
+}
+
+.validation_error {
+	color:red;
+	margin-bottom:15px;
+}
+
 
 @media screen and (min-width: 645px) {
 	
@@ -884,6 +931,9 @@ header {
 			margin: 0 auto 20px;
 		}
 	}
+	
+	
+	
 	
 	
 	
