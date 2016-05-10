@@ -169,7 +169,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 	
 	<a href=""><img src="<?php bloginfo('template_directory');?>/images/square.jpg"></a>
 	<a href=""><img src="<?php bloginfo('template_directory');?>/images/square.jpg"></a>
-	<a href=""><img src="<?php bloginfo('template_directory');?>/images/square.jpg"></a>
+	<a href=""><img class="last_box" src="<?php bloginfo('template_directory');?>/images/square.jpg"></a>
 	
 </div><!-- paul_boxes -->
 

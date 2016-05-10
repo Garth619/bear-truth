@@ -811,11 +811,17 @@ header {
 
 .paul_boxes {
 		overflow: hidden;
+		margin:20px 0;
 		img {
 			float:left;
-			width:33.3333333%;
+			width:31.3333333%;
+			margin-right:3%;
 			@include border-radius(7px);
+			
 		}
+		img.last_box{
+				margin: 0;
+			}
 	}
 	
 	
@@ -878,23 +884,6 @@ header {
 			margin: 0 auto 20px;
 		}
 	}
-	
-	.paul_boxes {
-		margin-top:20px;
-		
-		img {
-			margin-right:3%;
-			width:30.3333%;
-			
-		}
-		
-	}
-	
-	
-	.paul_boxes img:nth-of-type(3n + 3) {
-				margin-right:0;
-			}
-	
 	
 	
 	
