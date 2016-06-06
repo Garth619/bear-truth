@@ -28,7 +28,20 @@ get_header(); ?>
 
 			<?php get_template_part( 'loop', 'page' );?>
 
-		</div><!-- #content -->
+	
+	
+	</div><!-- #content -->
+	
+	<?php if(is_page(array(11,13,15))):?>
+	
+	
+	<div class="inner_video">
+		<div class='embed-container'>
+			<iframe src='https://www.youtube.com/embed/lwSJ9nWCi5I' frameborder='0' allowfullscreen></iframe>
+		</div>
+	</div><!-- inner_video -->
+	
+	<?php endif;?>
 	
 	
 </div><!-- innner_content -->
