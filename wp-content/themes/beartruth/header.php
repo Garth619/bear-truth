@@ -75,7 +75,7 @@
 				
 			</div><!-- social_media_wrapper -->
 			
-			<div class="sc_desktop_wrapper">
+			<div style="display:none" class="sc_desktop_wrapper">
 			
 				<img class="sc_desktop" src="<?php bloginfo('template_directory');?>/images/sc.png"/>
 				<span>Shopping Cart | Checkout</span>
