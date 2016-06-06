@@ -82,7 +82,7 @@
 				
 			</div><!-- sc_desktop_wrapper -->
 			
-			<div class="signup">
+			<div style="display:none" class="signup">
 				
 				<span>Sign Up for Latest Updates!</span>
 				
