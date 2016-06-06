@@ -18874,6 +18874,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/gravity_forms\/0-7ee102ed68b9ae2a3547cf786afcd476\/98149783.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2171,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/gravity_forms\/0-7ee102ed68b9ae2a3547cf786afcd476\/98149783.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/gravity_forms\/0-7ee102ed68b9ae2a3547cf786afcd476\/98149783.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/ithemes-security\/backups\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
