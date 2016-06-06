@@ -905,21 +905,6 @@ li#field_1_6 label.gfield_label {
 	}
  
 
-@media screen and (min-width: 550px) {
-	
-	
-	#my-welcome-message {
-  margin:0 31%;
-  width: 40%;
-  top: 20%;
-  padding: 40px 2% 25px;
-  
-	}
-	
-	
-	
-}
-
 
 @media screen and (min-width: 645px) {
 	
@@ -976,6 +961,15 @@ li#field_1_6 label.gfield_label {
 	.overlay_logo {
 		display: block;
 	}
+	
+	#my-welcome-message {
+  margin:0 31%;
+  width: 40%;
+  top: 20%;
+  padding: 40px 2% 25px;
+  
+	}
+
 
 	.paul_video {
 		padding-right:3%;
