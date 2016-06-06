@@ -33,7 +33,7 @@
 	
 	
 <div id="my-welcome-message">
-<!-- 	<img class="overlay_logo" src="<?php bloginfo('template_directory');?>/images/beartruth.png"/> -->
+	<img class="overlay_logo" src="<?php bloginfo('template_directory');?>/images/beartruth.png"/>
   <h2>Sign Up For The Bear Truth Fanclub!</h2>
   <div class="overlay_form">
 	  <?php gravity_form( 2, false, false, false, '', true );?>

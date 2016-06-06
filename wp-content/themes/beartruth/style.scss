@@ -879,11 +879,7 @@ li#field_1_6 label.gfield_label {
 			}
 		}
 	}
-	.overlay_logo {
-		width:150px;
-		display: block;
-		margin: 0 auto 15px;
-	}
+	
 	.gform_button {
 		font-size:18px;
 	}
@@ -902,9 +898,27 @@ li#field_1_6 label.gfield_label {
 	text-decoration: none;
 }
 
+.overlay_logo {
+		width:150px;
+		display: none;
+		margin: 0 auto 15px;
+	}
  
 
-#fvpp-dialog p { }
+@media screen and (min-width: 550px) {
+	
+	
+	#my-welcome-message {
+  margin:0 31%;
+  width: 40%;
+  top: 20%;
+  padding: 40px 2% 25px;
+  
+	}
+	
+	
+	
+}
 
 
 @media screen and (min-width: 645px) {
@@ -959,7 +973,9 @@ li#field_1_6 label.gfield_label {
 
 @media screen and (min-width: 820px) {
 	
-	
+	.overlay_logo {
+		display: block;
+	}
 
 	.paul_video {
 		padding-right:3%;
@@ -1350,4 +1366,20 @@ li#field_1_6 label.gfield_label {
 
 
 
+}
+
+
+@media screen and (min-width: 1150px) {
+	
+	
+	#my-welcome-message {
+  margin:0 29%;
+
+  top: 20%;
+  
+  
+	}
+	
+	
+	
 }
