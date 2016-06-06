@@ -849,7 +849,7 @@ li#field_1_6 label.gfield_label {
   z-index: 500;
   position: fixed;
   width: 100%;
-  top: 5%;
+  top: 1%;
   padding: 40px 2% 25px;
   background: #FFF;
   h2 {
@@ -870,11 +870,14 @@ li#field_1_6 label.gfield_label {
 		.gform_wrapper {
 			width:100%;
 			margin-bottom:0px;
+			li {
+				margin-bottom:3px;
+			}
 			.validation_error {
 				display:none;
 			}
 			.gfield_description validation_message {
-				font-size:13px;
+				font-size:11px;
 			}
 			.gfield_captcha {
 				width:100px;
