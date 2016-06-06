@@ -12064,6 +12064,491 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/wp-booklet\/assets\/js\/jquery.wpbooklet-editor.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/assets\/js\/jquery.wpbooklet-editor.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/assets\/js\/min\/jquery.wpbooklet-editor-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/wp-booklet\/assets\/js\/jquery.wpbooklet-extended.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/assets\/js\/jquery.wpbooklet-extended.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/assets\/js\/min\/jquery.wpbooklet-extended-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/wp-booklet\/assets\/js\/jquery.wpbooklet-image-popup.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/assets\/js\/jquery.wpbooklet-image-popup.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/assets\/js\/min\/jquery.wpbooklet-image-popup.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/wp-booklet\/assets\/js\/jquery.wpbooklet-pdf-uploader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/assets\/js\/jquery.wpbooklet-pdf-uploader.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/assets\/js\/min\/jquery.wpbooklet-pdf-uploader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/wp-booklet\/assets\/js\/jquery.wpbooklet.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/assets\/js\/jquery.wpbooklet.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/assets\/js\/min\/jquery.wpbooklet-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/wp-booklet\/assets\/js\/jquery.wpbookletcarousel.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/assets\/js\/jquery.wpbookletcarousel.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/assets\/js\/min\/jquery.wpbookletcarousel-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/wp-booklet\/assets\/js\/wpbooklet-editor-controller.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/assets\/js\/wpbooklet-editor-controller.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/assets\/js\/min\/wpbooklet-editor-controller-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/wp-booklet\/assets\/js\/wpbooklet-importer-page.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/assets\/js\/wpbooklet-importer-page.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/assets\/js\/min\/wpbooklet-importer-page-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-booklet-editor.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-booklet-editor.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-booklet.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-booklet.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-command.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-command.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-controller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-controller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-importer-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-importer-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-importer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-importer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-pdf.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-pdf.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-pdfinfo.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-pdfinfo.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-theme-manager.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-theme-manager.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-theme.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/classes\/class-wp-booklet2-theme.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/css\/booklet-editor-3.8.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/css\/booklet-editor-3.8.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/css\/booklet-editor.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/css\/booklet-editor.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/css\/importer.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/css\/importer.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/images\/icon-arrows.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2874,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/images\/icon-arrows.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/images\/icon-arrows.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/images\/icon-close.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1238,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/images\/icon-close.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/images\/icon-close.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/import-nag.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/import-nag.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/importer-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/importer-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/pages-metabox.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/pages-metabox.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/properties-metabox.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/properties-metabox.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/shortcode-metabox.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/shortcode-metabox.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/themes-metabox.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/admin\/default\/themes-metabox.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/booklet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/booklet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/booklet.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/booklet.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/images\/booklet-arrows.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4418,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/images\/booklet-arrows.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/images\/booklet-arrows.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/images\/carousel-arrows.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3732,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/images\/carousel-arrows.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/images\/carousel-arrows.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/images\/overlay.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2793,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/images\/overlay.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/images\/overlay.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/images\/shadow-top-back.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2856,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/images\/shadow-top-back.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/images\/shadow-top-back.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/images\/shadow-top-forward.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2847,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/images\/shadow-top-forward.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/images\/shadow-top-forward.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/images\/shadow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5552,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/images\/shadow.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/dark\/images\/shadow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/booklet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/booklet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/booklet.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/booklet.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/images\/booklet-arrows.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4297,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/images\/booklet-arrows.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/images\/booklet-arrows.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/images\/carousel-arrows.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3686,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/images\/carousel-arrows.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/images\/carousel-arrows.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/images\/overlay.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2793,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/images\/overlay.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/images\/overlay.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/images\/shadow-top-back.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2856,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/images\/shadow-top-back.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/images\/shadow-top-back.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/images\/shadow-top-forward.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2847,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/images\/shadow-top-forward.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/images\/shadow-top-forward.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/images\/shadow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5552,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/images\/shadow.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/themes\/booklet\/light\/images\/shadow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/wp-booklet\/wp-booklet.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-booklet\/wp-booklet.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/css\/styles.css": {
 		"fileType": 16,
 		"ignore": 0,
