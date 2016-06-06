@@ -861,6 +861,8 @@ li#field_1_6 label.gfield_label {
 	}
 	input {
 		 padding: 8px 10px;
+		 border-radius: 0;
+		 -webkit-appearance: none;
 	}
 	.overlay_form {
 		width:100%;
