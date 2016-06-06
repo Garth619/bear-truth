@@ -30,9 +30,46 @@
 			<span class="copy">&copy; 2016 Bear Truth Collective, LLC. All Rights Reserved</span>
 		</div><!-- inner_footer -->
 	</div><!-- footer -->
+	
+	
+<div id="my-welcome-message">
+<!-- 	<img class="overlay_logo" src="<?php bloginfo('template_directory');?>/images/beartruth.png"/> -->
+  <h2>Sign Up For The Bear Truth Fanclub!</h2>
+  <div class="overlay_form">
+	  <?php gravity_form( 2, false, false, false, '', true );?>
+	 </div><!-- overlay_form -->
+</div>
+
 
 <?php wp_footer();?>
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/cycle2.js"></script>
+<?php if(is_page(array(4,44))) { ?>
+	
+	<script type="text/javascript" src="<?php bloginfo('template_directory');?>/jquery.firstVisitPopup.min.js"></script>
+	
+	<script type="text/javascript">
+	
+	
+	jQuery(document).ready(function(){
+		
+		jQuery('#my-welcome-message').firstVisitPopup({
+
+	  cookieName : 'homepage',
+		showAgainSelector: '#show-message'
+
+	});
+		
+		
+	});
+	
+	
+	
+	
+	</script>
+	
+	
+	
+<?php }?>
 <script type="text/javascript">
 	
 	jQuery(document).ready(function(){
