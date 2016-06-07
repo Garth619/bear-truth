@@ -12,7 +12,7 @@
 			
 			
 			
-			<h2>Sign up for awesome freebies, contests, and special&nbsp;offers</h2>
+			<h2>Join the Beartruth Collective Fan Club for freebies, contests, and other awesomeness!</h2>
  
 	  <div class="form">
 		  <?php gravity_form( 2, false, false, false, '', true );?>

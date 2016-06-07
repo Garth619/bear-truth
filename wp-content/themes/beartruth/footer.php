@@ -27,18 +27,37 @@
 			<?php wp_nav_menu( array( 'container_class' => 'menu-header3', 'theme_location' => 'footer2' ) ); ?>
 			</div><!-- footet_col1 -->
 			
-			<span class="copy">&copy; 2016 Bear Truth Collective, LLC. All Rights Reserved</span>
+			<span class="copy">&copy; 2016 Beartruth Collective, LLC. All Rights Reserved</span>
 		</div><!-- inner_footer -->
 	</div><!-- footer -->
 	
 	
 <div id="my-welcome-message">
-	<img class="overlay_logo" src="<?php bloginfo('template_directory');?>/images/beartruth.png"/>
-  <h2>Sign up for awesome freebies, contests, and special&nbsp;offers</h2>
-  <div class="overlay_form">
-	  <?php gravity_form( 2, false, false, false, '', true );?>
-	 </div><!-- overlay_form -->
-</div>
+	
+	<?php if(is_page(4)) { ?>
+	
+		<img class="overlay_logo" src="<?php bloginfo('template_directory');?>/images/beartruth.png"/>
+		<h2>Join the Beartruth Collective Fan Club for freebies, contests, and other awesomeness!</h2>
+		<div class="overlay_form">
+	  	<?php gravity_form( 2, false, false, false, '', true );?>
+	 	</div><!-- overlay_form -->
+	 
+	 <?php }?>
+	 
+	 
+	 <?php if(is_page(44)) { ?>
+	 
+	 
+	 		<img class="overlay_logo" width="200" src="<?php bloginfo('template_directory');?>/images/book.jpg"/>
+	 		<h2>Paul Book Verbiage</h2>
+	 		<div class="overlay_form">
+	  		<?php gravity_form( 2, false, false, false, '', true );?>
+			</div><!-- overlay_form -->
+	 	
+	 	
+	 <?php }?>
+	 
+</div><!-- my-welcome-message -->
 
 
 <?php wp_footer();?>

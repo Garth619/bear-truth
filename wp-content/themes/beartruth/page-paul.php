@@ -56,6 +56,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 	</div><!-- paul_link -->
 	
 </div><!-- video_link_wrapper -->
+
+<div class="inner_banner">
+	
+	<img src="<?php bloginfo('template_directory');?>/images/banner.png"/>
+	
+</div><!-- inner_banner -->
 	
 	<div class="characters">
 		
@@ -159,11 +165,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 		
 	</div><!-- characters -->
 	
-	<div class="inner_banner">
 	
-	<img src="<?php bloginfo('template_directory');?>/images/banner.png"/>
-	
-</div><!-- inner_banner -->
 
 <div class="paul_boxes">
 	
