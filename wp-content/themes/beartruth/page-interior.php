@@ -18,7 +18,17 @@ get_header(); ?>
 
 <div class="inner_banner">
 	
-	<img src="<?php bloginfo('template_directory');?>/images/banner.png"/>
+	<?php if(get_field('banner')): ?>
+	
+		<img src="<?php the_field('banner');?>"/>
+		
+		
+		<?php else :?>
+		
+		<img src="<?php bloginfo('template_directory');?>/images/banner.png"/>
+		
+	
+	<?php endif; ?>
 	
 </div><!-- inner_banner -->
 
@@ -28,7 +38,7 @@ get_header(); ?>
 
 			<?php get_template_part( 'loop', 'page' );?>
 
-	
+
 	
 	</div><!-- #content -->
 	
@@ -37,7 +47,7 @@ get_header(); ?>
 	
 	<div class="inner_video">
 		<div class='embed-container'>
-			<iframe src='https://www.youtube.com/embed/lwSJ9nWCi5I' frameborder='0' allowfullscreen></iframe>
+			<iframe src='https://www.youtube.com/embed/<?php the_field('youtube_video');?>' frameborder='0' allowfullscreen></iframe>
 		</div>
 	</div><!-- inner_video -->
 	
