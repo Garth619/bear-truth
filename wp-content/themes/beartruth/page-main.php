@@ -17,17 +17,17 @@ get_header(); ?>
 
 <div class="slideshow_wrapper">
 		
-	
-	
-	
-	<div class="slideshow cycle-slideshow" data-cycle-prev=".prev" data-cycle-next=".next" data-cycle-pager=".my_pager" data-cycle-swipe=true data-cycle-swipe-fx=scrollHorz>
-	
-		<img class="slide" src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
-		<img class="slide" src="<?php bloginfo('template_directory');?>/images/slide2.png"/>
-		<img class="slide" src="<?php bloginfo('template_directory');?>/images/slide3.png"/>
-		<img class="slide" src="<?php bloginfo('template_directory');?>/images/slide4.png"/>
-	
-	</div><!-- cycle-slideshow -->
+	<?php if(get_field('slideshow')): ?>
+ 
+		<div class="slideshow cycle-slideshow" data-cycle-prev=".prev" data-cycle-next=".next" data-cycle-pager=".my_pager" data-cycle-swipe=true data-cycle-swipe-fx=scrollHorz>
+ 
+		<?php while(has_sub_field('slideshow')): ?>
+ 
+    	<img class="slide" src="<?php the_sub_field('image');?>"/>
+ 
+			<?php endwhile; ?>
+ 
+		</div><!-- cycle-slideshow -->
 	
 	<div class="slide_controls">
 	
@@ -36,15 +36,23 @@ get_header(); ?>
 		<div class="my_pager"></div>
    
 	</div><!-- slide_controls -->
+ 
+<?php endif; ?>
+	
+	
+	
+	
+			
 	
 	
 </div><!-- slideshow -->
 
 <div class="boxes">
 	
-	<a href="<?php bloginfo('url');?>/paul-a-graphic-novel"><img class="box" src="<?php bloginfo('template_directory');?>/images/box1.jpg"/></a>
-	<a href="<?php bloginfo('url');?>/art-blog"><img class="box" src="<?php bloginfo('template_directory');?>/images/box2.jpg"/></a>
-	<a href="<?php bloginfo('url');?>/freebies-and-contests"><img class="box" src="<?php bloginfo('template_directory');?>/images/box3.jpg"/></a>
+	<a href="<?php the_field('box_1_link');?>"><img class="box" src="<?php the_field('boxe1');?>"/></a>
+	<a href="<?php the_field('box_2_link');?>"><img class="box" src="<?php the_field('boxe2');?>"/></a>
+	<a href="<?php the_field('box_3_link');?>"><img class="box" src="<?php the_field('boxe3');?>"/></a>
+	
 	
 </div><!-- boxes -->
 

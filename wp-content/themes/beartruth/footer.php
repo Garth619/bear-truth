@@ -60,6 +60,8 @@
 </div><!-- my-welcome-message -->
 
 
+
+
 <?php wp_footer();?>
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/cycle2.js"></script>
 <?php if(is_page(array(4,44))) { ?>
