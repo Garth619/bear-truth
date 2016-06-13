@@ -25,7 +25,7 @@ get_header(); ?>
 		
 		<?php else :?>
 		
-		<img src="<?php bloginfo('template_directory');?>/images/banner.png"/>
+		<img src="<?php bloginfo('template_directory');?>/images/placeholder.png"/>
 		
 	
 	<?php endif; ?>

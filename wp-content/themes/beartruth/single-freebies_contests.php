@@ -19,9 +19,9 @@ get_header(); ?>
 		<?php else :?>
 		
 		
-		<?php if(get_field('banner', 11)):?>
+		<?php if(get_field('banner', 15)):?>
 		
-			<img src="<?php the_field('banner', 11); ?>"/>
+			<img src="<?php the_field('banner', 15); ?>"/>
 		
 		<?php endif;?>
 		
