@@ -19,9 +19,9 @@ get_header(); ?>
 		<?php else :?>
 		
 		
-		<?php if(get_field('banner', 15)):?>
+		<?php if(get_field('banner', 11)):?>
 		
-			<img src="<?php the_field('banner', 15); ?>"/>
+			<img src="<?php the_field('banner', 11); ?>"/>
 		
 		<?php endif;?>
 		
@@ -39,7 +39,6 @@ get_header(); ?>
 			</div><!-- #content -->
 		</div><!-- inner_content -->
 
-
 <div class="main_feed">
 
 
@@ -55,7 +54,7 @@ get_header(); ?>
   $temp = $wp_query; 
   $wp_query = null; 
   $wp_query = new WP_Query(); 
-  $wp_query->query('showposts=8&post_type=freebies_contests'.'&paged='.$paged); 
+  $wp_query->query('showposts=8&post_type=main_blog'.'&paged='.$paged); 
 
   while ($wp_query->have_posts()) : $wp_query->the_post(); 
 ?>
@@ -99,6 +98,5 @@ get_header(); ?>
 </div><!-- main_feed -->
 
 <?php get_sidebar(); ?>
-
 
 <?php get_footer(); ?>
