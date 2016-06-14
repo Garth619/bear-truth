@@ -18,7 +18,17 @@ get_header(); ?>
 
 <div class="inner_banner">
 	
-	<img src="<?php bloginfo('template_directory');?>/images/banner.png"/>
+	<?php if(get_field('paul_top_banner')): ?>
+	
+		<img src="<?php the_field('paul_top_banner');?>"/>
+		
+		
+		<?php else :?>
+		
+		<img src="<?php bloginfo('template_directory');?>/images/placeholder.png"/>
+		
+	
+	<?php endif; ?>
 	
 </div><!-- inner_banner -->
 
@@ -26,9 +36,8 @@ get_header(); ?>
 	
 	<div id="content">
 
-	<h1>Title</h1>
-	<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o cia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ex- ercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o cia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, con- sectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excep- teur sint occaecat cupidatat non proident, sunt in culpa qui o cia deserunt mollit anim id est laborum.</p>
+	<h1><?php the_title(); ?></h1>
+	<?php the_field('paul_content');?>
 	
 	
 	</div><!-- #content -->
@@ -44,14 +53,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <div class="paul_video">
 		
 		<div class='embed-container'>
-			<iframe src='https://www.youtube.com/embed/lwSJ9nWCi5I' frameborder='0' allowfullscreen></iframe>
+			<iframe src='https://www.youtube.com/embed/<?php the_field('paul_youtube_video');?>' frameborder='0' allowfullscreen></iframe>
 		</div>
 		
 	</div><!-- paul_video -->
 	
 	<div class="paul_link">
 		
-	<img src="<?php bloginfo('template_directory');?>/images/paul-link.jpg"/>
+	<img src="<?php the_field('flipbook_graphic');?>"/>
 	
 	</div><!-- paul_link -->
 	
@@ -59,7 +68,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <div class="inner_banner">
 	
-	<img src="<?php bloginfo('template_directory');?>/images/banner.png"/>
+	<?php if(get_field('middle_banner')): ?>
+	
+		<img src="<?php the_field('middle_banner');?>"/>
+		
+		
+		<?php else :?>
+		
+		<img src="<?php bloginfo('template_directory');?>/images/placeholder.png"/>
+		
+	
+	<?php endif; ?>
 	
 </div><!-- inner_banner -->
 	
