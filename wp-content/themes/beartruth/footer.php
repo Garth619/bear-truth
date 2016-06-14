@@ -32,6 +32,25 @@
 	</div><!-- footer -->
 	
 	
+<?php if(is_page(44)) { ?>
+
+<div class="flipbook_wrapper">
+	
+	<div class="flipbook">
+		
+		<span class="flipbook_close">CLOSE X</span>
+		
+		<?php echo do_shortcode('[wp-booklet id=81]'); ?>
+	
+	
+	</div><!-- flipbook -->
+
+</div><!-- flipbook_wrapper -->
+
+
+<?php } ?>
+	
+	
 <div id="my-welcome-message">
 	
 	<?php if(is_page(4)) { ?>
@@ -113,6 +132,36 @@
 	});
 	
 </script>
+
+<?php if(is_page(44)) { ?>
+
+<script type="text/javascript">
+	
+	jQuery(document).ready(function(){
+		
+		
+		jQuery('.paul_link').click(function(){
+			
+			jQuery('.flipbook_wrapper').addClass('open');
+			
+		});
+		
+		
+		jQuery('.flipbook_close').click(function(){
+			
+			jQuery('.flipbook_wrapper').removeClass('open');
+			
+		});
+		
+		
+		
+	});
+	
+</script>
+
+
+
+<?php } ?>
 
 </body>
 </html>
