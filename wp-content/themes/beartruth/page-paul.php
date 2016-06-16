@@ -157,9 +157,16 @@ get_header(); ?>
 
 <div class="paul_boxes">
 	
-	<a href=""><img src="<?php bloginfo('template_directory');?>/images/square.jpg"></a>
-	<a href=""><img src="<?php bloginfo('template_directory');?>/images/square.jpg"></a>
-	<a href=""><img class="last_box" src="<?php bloginfo('template_directory');?>/images/square.jpg"></a>
+	<a href="<?php the_field('box1_link');?>">
+		<img src="<?php the_field('box_1');?>">
+	</a>
+	<a href="<?php the_field('box2_link');?>">
+		<img src="<?php the_field('box_2');?>">
+	</a>
+	
+	<a href="<?php the_field('box3_link');?>">
+		<img class="last_box" src="<?php the_field('box_3');?>">
+	</a>
 	
 </div><!-- paul_boxes -->
 
