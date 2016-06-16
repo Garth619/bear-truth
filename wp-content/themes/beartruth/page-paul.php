@@ -127,6 +127,33 @@ get_header(); ?>
 </div><!-- characters -->
 	
 	
+	
+	<div class="slideshow_wrapper">
+		
+	<?php if(get_field('caption_slideshow')): ?>
+ 
+		<div class="slideshow cycle-slideshow" data-cycle-prev=".prev" data-cycle-next=".next" data-cycle-pager=".my_pager" data-cycle-swipe=true data-cycle-swipe-fx=scrollHorz>
+ 
+		<?php while(has_sub_field('caption_slideshow')): ?>
+ 
+    	<img class="slide" src="<?php the_sub_field('image');?>"/>
+ 
+			<?php endwhile; ?>
+ 
+		</div><!-- cycle-slideshow -->
+	
+	<div class="slide_controls">
+	
+		<div class="prev slide_buttons"><img src="<?php bloginfo('template_directory');?>/images/left.png"/></div>
+		<div class="next slide_buttons"><img src="<?php bloginfo('template_directory');?>/images/right.png"/></div>
+		<div class="my_pager"></div>
+   
+	</div><!-- slide_controls -->
+ 
+<?php endif; ?>
+	
+</div><!-- slideshow -->
+	
 
 <div class="paul_boxes">
 	
