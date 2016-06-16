@@ -934,7 +934,7 @@ li#field_1_6 label.gfield_label {
   top: 10px;
   right: 20px;
   cursor: pointer;
-  font-size: 17px;
+  font-size: 26px;
   font-weight: bold;
 }
 
@@ -943,9 +943,11 @@ li#field_1_6 label.gfield_label {
 }
 
 .overlay_logo {
-	width:150px;
+	width:100%;
 	display: none;
 	margin: 0 auto 15px;
+	max-width:250px;
+	height:auto;
 }
 	
 	.flipbook_wrapper {
@@ -1199,7 +1201,7 @@ li#field_1_6 label.gfield_label {
 				list-style: none;
 				li {
 					display:inline-block;
-					margin-right: 13.5%;
+					margin-right: 8.5%;
 					ul.sub-menu {
 						position:absolute;
 						top:29px;

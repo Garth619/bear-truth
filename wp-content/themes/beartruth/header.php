@@ -66,10 +66,10 @@
 		
 			<div class="social_media_wrapper">
 				
-				<a href="" target="_blank"><img class="social_icon" src="<?php bloginfo('template_directory');?>/images/icon.jpg"/></a>
-				<a href="" target="_blank"><img class="social_icon" src="<?php bloginfo('template_directory');?>/images/icon.jpg"/></a>
-				<a href="" target="_blank"><img class="social_icon" src="<?php bloginfo('template_directory');?>/images/icon.jpg"/></a>
-				<a href="" target="_blank"><img class="social_icon" src="<?php bloginfo('template_directory');?>/images/icon.jpg"/></a>
+				<a href="https://www.facebook.com/beartruthcollective/?fref=ts" target="_blank"><img class="social_icon" src="<?php bloginfo('template_directory');?>/images/facebook.jpg"/></a>
+				<a href="https://twitter.com/beartruthcomics" target="_blank"><img class="social_icon" src="<?php bloginfo('template_directory');?>/images/twitter.jpg"/></a>
+				<a href="https://www.instagram.com/beartruth_collective/?hl=en" target="_blank"><img class="social_icon" src="<?php bloginfo('template_directory');?>/images/instagram.jpg"/></a>
+		
 				
 			
 				

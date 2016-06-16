@@ -56,7 +56,7 @@
 	<?php if(is_page(4)) { ?>
 	
 		<img class="overlay_logo" src="<?php bloginfo('template_directory');?>/images/beartruth.png"/>
-		<h2>Join the Beartruth Collective Fan Club for freebies, contests, and other awesomeness!</h2>
+		<h2>Join the Beartruth Collective Fan Club for freebies, contests, and other&nbsp;awesomeness!</h2>
 		<div class="overlay_form">
 	  	<?php gravity_form( 2, false, false, false, '', true );?>
 	 	</div><!-- overlay_form -->
@@ -67,8 +67,8 @@
 	 <?php if(is_page(44)) { ?>
 	 
 	 
-	 		<img class="overlay_logo" width="200" src="<?php bloginfo('template_directory');?>/images/book.jpg"/>
-	 		<h2>Paul Book Verbiage</h2>
+	 		<img class="overlay_logo" style="max-width:265px;" src="<?php bloginfo('template_directory');?>/images/book.jpg"/>
+	 		<h2>Get the first 50 pages of Paul the Apostle: A Graphic Novel for Free!!! Awesomeness!!!</h2>
 	 		<div class="overlay_form">
 	  		<?php gravity_form( 2, false, false, false, '', true );?>
 			</div><!-- overlay_form -->
