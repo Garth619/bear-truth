@@ -40,12 +40,49 @@
 		
 		<span class="flipbook_close">CLOSE X</span>
 		
-		<?php echo do_shortcode('[wp-booklet id=81]'); ?>
+		
 	
 	
 	</div><!-- flipbook -->
 
 </div><!-- flipbook_wrapper -->
+
+
+<div class="character_overlay_wrapper">
+	
+	<div class="character_overlay">
+		
+		<span class="character_close">CLOSE X</span>
+		
+		
+		
+		
+		
+		<?php if(get_field('characters')): ?>
+ 
+			<?php $count=1; ?>
+ 
+			<?php while(has_sub_field('characters')): ?>
+	
+	
+			<h1 class="character_header_<?php echo $count;?>" style="color:#fff;"><?php the_sub_field('character_title');?></h1>
+			<img class="character_image_<?php echo $count;?>" src="<?php the_sub_field('image');?>">
+						
+						 
+    	<?php $count++; ?>
+    	
+    	<?php endwhile; ?>
+ 
+		<?php endif; ?>
+		
+		
+		
+		
+	
+	
+	</div><!-- chracter_overlay -->
+
+</div><!-- character_overlay_wrapper -->
 
 
 <?php } ?>
@@ -152,6 +189,60 @@
 			jQuery('.flipbook_wrapper').removeClass('open');
 			
 		});
+		
+		
+		
+				
+		<?php if( ! is_mobile()):?>
+		
+		<?php if(get_field('characters')): ?>
+ 
+			<?php $count=1; ?>
+			
+			<?php while(has_sub_field('characters')): ?>
+			
+			
+				jQuery('.character_image_<?php echo $count;?>').click(function(){
+			
+					jQuery('.character_overlay_wrapper').addClass('open');
+					jQuery('.character_overlay_wrapper h1.character_header_<?php echo $count;?>').show();
+					jQuery('.character_overlay_wrapper img.character_image_<?php echo $count;?>').show();
+			
+				});
+				
+				
+				jQuery('.character_close').click(function(){
+			
+					jQuery('.character_overlay_wrapper').removeClass('open');
+					jQuery('.character_overlay_wrapper h1').fadeOut();
+					jQuery('.character_overlay_wrapper img').fadeOut();
+			
+				});
+				
+				
+				jQuery('.character_overlay_wrapper').click(function(){
+			
+					jQuery('.character_overlay_wrapper').removeClass('open');
+					jQuery('.character_overlay_wrapper h1').fadeOut();
+					jQuery('.character_overlay_wrapper img').fadeOut();
+			
+				});
+	
+												
+						
+				<?php $count++; ?>		
+						 
+    	<?php endwhile; ?>
+ 
+		<?php endif; ?>
+		
+		<?php endif;?>
+		
+		
+		
+		
+		
+		
 		
 		
 		

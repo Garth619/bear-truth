@@ -86,103 +86,45 @@ get_header(); ?>
 		
 		<h1>Characters</h1>
 		
-		<div class="single_character">
-			
-			<div class="charater_img_wrapper">
-				
-				<img src="<?php bloginfo('template_directory');?>/images/square.jpg">
-			
-			</div><!-- charater_img_wrapper -->
-			
-			<div class="charater_content_wrapper">
-				
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				
-			</div><!-- charater_content_wrapper -->
-			
-		</div><!-- single_character -->
 		
-		<div class="single_character">
-			
-			<div class="charater_img_wrapper">
-				
-				<img src="<?php bloginfo('template_directory');?>/images/square.jpg">
-			
-			</div><!-- charater_img_wrapper -->
-			
-			<div class="charater_content_wrapper">
-				
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				
-			</div><!-- charater_content_wrapper -->
-			
-		</div><!-- single_character -->
 		
-		<div class="single_character">
-			
-			<div class="charater_img_wrapper">
-				
-				<img src="<?php bloginfo('template_directory');?>/images/square.jpg">
-			
-			</div><!-- charater_img_wrapper -->
-			
-			<div class="charater_content_wrapper">
-				
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				
-			</div><!-- charater_content_wrapper -->
-			
-		</div><!-- single_character -->
 		
-		<div class="single_character">
-			
-			<div class="charater_img_wrapper">
-				
-				<img src="<?php bloginfo('template_directory');?>/images/square.jpg">
-			
-			</div><!-- charater_img_wrapper -->
-			
-			<div class="charater_content_wrapper">
-				
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				
-			</div><!-- charater_content_wrapper -->
-			
-		</div><!-- single_character -->
 		
-		<div class="single_character">
-			
-			<div class="charater_img_wrapper">
-				
-				<img src="<?php bloginfo('template_directory');?>/images/square.jpg">
-			
-			</div><!-- charater_img_wrapper -->
-			
-			<div class="charater_content_wrapper">
-				
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				
-			</div><!-- charater_content_wrapper -->
-			
-		</div><!-- single_character -->
 		
-		<div class="single_character">
-			
-			<div class="charater_img_wrapper">
-				
-				<img src="<?php bloginfo('template_directory');?>/images/square.jpg">
-			
-			</div><!-- charater_img_wrapper -->
-			
-			<div class="charater_content_wrapper">
-				
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				
-			</div><!-- charater_content_wrapper -->
-			
-		</div><!-- single_character -->
+		<?php if(get_field('characters')): ?>
 		
-	</div><!-- characters -->
+		<?php $count=1; ?>
+ 
+			<?php while(has_sub_field('characters')): ?>
+		
+			
+		
+	
+					<div class="single_character">
+						
+						<div class="charater_img_wrapper">
+							
+							<img class="character_image character_image_<?php echo $count;?>" src="<?php the_sub_field('image');?>">
+						
+						</div><!-- charater_img_wrapper -->
+						
+						<div class="charater_content_wrapper">
+							
+						<h1><?php the_sub_field('character_title');?></h1>
+						
+						<p><?php the_sub_field('bio');?></p>
+							
+						</div><!-- charater_content_wrapper -->
+						
+					</div><!-- single_character -->
+ 
+					<?php $count++; ?>
+    	
+    	<?php endwhile; ?>
+ 
+		<?php endif; ?>
+		
+</div><!-- characters -->
 	
 	
 

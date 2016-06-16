@@ -980,11 +980,51 @@ li#field_1_6 label.gfield_label {
 	}
 	
 	
-	.flipbook_wrapper.open {
+	.flipbook_wrapper.open, .character_overlay_wrapper.open {
 			transition: all 0.5s ease;
 			opacity: 1;
 			visibility: visible;
 		}
+		
+		
+		
+		
+	.character_overlay_wrapper {
+	
+		width:100%;
+		height:100vh;
+		position: fixed;
+		top:0;
+		z-index:1000;
+		padding:0 35px;
+		background: rgba(0, 0, 0, 0.9);
+		transition: all 0.5s ease;
+		opacity: 0;
+		visibility: hidden;
+		.character_overlay {
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+			max-width:400px;
+			margin:0 auto;
+			.character_close {
+				position: absolute;
+				right:0;
+				top:0px;
+				color:$green;
+				font-weight: bold;
+				cursor: pointer;
+			}
+			h1 {
+				display: none;
+				font-size:17px;
+				text-transform: uppercase;
+			}
+			img {
+				display: none;
+			}
+		}
+	}
  
 
 
@@ -994,6 +1034,7 @@ li#field_1_6 label.gfield_label {
 	.charater_img_wrapper {
 		img {
 			 max-width: 49%;
+			 cursor: pointer;
 		}
 	}
 
@@ -1160,6 +1201,10 @@ li#field_1_6 label.gfield_label {
 		float:left;
 		width:59%;
 		padding-left:4%;
+		h1 {
+			margin:0 0 10px;
+			font-size:19px;
+		}
 	}
 	
 	
