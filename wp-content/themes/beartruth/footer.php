@@ -165,56 +165,7 @@
 	jQuery(document).ready(function(){
 		
 		
-		
-
-/*
-
-		jQuery('.paul_link').click(function(){
-			
-			jQuery('.slide_flipbook').addClass('open');
-			jQuery('.flipbook-container.rfbwp-inited').addClass('open');
-			
-			
-		});
-		
-		jQuery('.slide_flipbook_close').click(function(){
-			
-			jQuery('.slide_flipbook').removeClass('open');
-			jQuery('.flipbook-container.rfbwp-inited').removeClass('open');
-			
-		});
-*/
-
-
-		
-		
-
-/*
-		jQuery('.paul_link').click(function(){
-			
-			jQuery('.flipbook_wrapper').addClass('open');
-			jQuery('.new_flipbook').addClass('open');
-			
-			jQuery('.flipbook-container.rfbwp-inited').addClass('open');
-			
-			
-			
-			
-		});
-		
-		
-		jQuery('.flipbook_close').click(function(){
-			
-			jQuery('.flipbook_wrapper').removeClass('open');
-			
-		});
-*/
-
-		
-		
-		
-				
-		<?php if( ! is_mobile()):?>
+	<?php if( ! is_mobile()):?>
 		
 		<?php if(get_field('characters')): ?>
  

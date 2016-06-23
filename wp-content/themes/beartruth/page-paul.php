@@ -60,7 +60,7 @@ get_header(); ?>
 	
 	<div class="paul_link">
 		
-		<?php echo do_shortcode('[flipbook-popup id="paul"]<img src="http://beartruth.com/wp-content/uploads/2016/05/paul-link.jpg"/>[/flipbook-popup]'); ?>
+		<?php echo do_shortcode('[flipbook-popup id="paul"]<img src="' . get_field('flipbook_graphic') . '"/>[/flipbook-popup]'); ?>
 		
 <!-- 	<img src="<?php the_field('flipbook_graphic');?>"/> -->
 	
@@ -68,13 +68,6 @@ get_header(); ?>
 	
 </div><!-- video_link_wrapper -->
 
-<div class="slide_flipbook">
-	
-
-	
-	
-	
-</div><!-- slide_flipbook -->
 
 <div class="inner_banner">
 	
