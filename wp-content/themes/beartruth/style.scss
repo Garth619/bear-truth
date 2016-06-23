@@ -956,7 +956,7 @@ li#field_1_6 label.gfield_label {
 	.flipbook_wrapper {
 	
 		width:100%;
-		height:100vh;
+		height:100%;
 		position: fixed;
 		top:0;
 		z-index:1000;
@@ -988,6 +988,40 @@ li#field_1_6 label.gfield_label {
 			opacity: 1;
 			visibility: visible;
 		}
+		
+/*
+	.slide_flipbook {
+		background: #000;
+	}
+*/
+		
+/*
+		.slide_flipbook {
+			height:0;
+			transition: all 2.5s ease;
+		}
+		
+		.slide_flipbook.open {
+			height:auto;
+			transition: all 2.5s ease;
+		}
+		
+
+		
+
+		.flipbook-container {
+    	opacity: 0 !important;
+			visibility: hidden !important;
+			transition: all 2.5s ease !important; 
+		}
+		
+		.flipbook-container.open {
+			opacity: 1 !important;
+			visibility: visible !important;
+			transition: all 2.5s ease !important;
+		}
+*/
+
 		
 		
 		

@@ -34,18 +34,6 @@
 	
 <?php if(is_page(44)) { ?>
 
-<div class="flipbook_wrapper">
-	
-	<div class="flipbook">
-		
-		<span class="flipbook_close">CLOSE X</span>
-		
-		
-	
-	
-	</div><!-- flipbook -->
-
-</div><!-- flipbook_wrapper -->
 
 
 <div class="character_overlay_wrapper">
@@ -177,9 +165,40 @@
 	jQuery(document).ready(function(){
 		
 		
+		
+
+/*
+
+		jQuery('.paul_link').click(function(){
+			
+			jQuery('.slide_flipbook').addClass('open');
+			jQuery('.flipbook-container.rfbwp-inited').addClass('open');
+			
+			
+		});
+		
+		jQuery('.slide_flipbook_close').click(function(){
+			
+			jQuery('.slide_flipbook').removeClass('open');
+			jQuery('.flipbook-container.rfbwp-inited').removeClass('open');
+			
+		});
+*/
+
+
+		
+		
+
+/*
 		jQuery('.paul_link').click(function(){
 			
 			jQuery('.flipbook_wrapper').addClass('open');
+			jQuery('.new_flipbook').addClass('open');
+			
+			jQuery('.flipbook-container.rfbwp-inited').addClass('open');
+			
+			
+			
 			
 		});
 		
@@ -189,6 +208,8 @@
 			jQuery('.flipbook_wrapper').removeClass('open');
 			
 		});
+*/
+
 		
 		
 		

@@ -66,6 +66,14 @@ get_header(); ?>
 	
 </div><!-- video_link_wrapper -->
 
+<div class="slide_flipbook">
+	
+<!-- 	<span class="slide_flipbook_close">Close X</span> -->
+	
+	<?php echo do_shortcode('[responsive-flipbook id="paul"]'); ?>
+	
+</div><!-- slide_flipbook -->
+
 <div class="inner_banner">
 	
 	<?php if(get_field('middle_banner')): ?>
