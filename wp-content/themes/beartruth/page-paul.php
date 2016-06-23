@@ -60,7 +60,9 @@ get_header(); ?>
 	
 	<div class="paul_link">
 		
-	<img src="<?php the_field('flipbook_graphic');?>"/>
+		<?php echo do_shortcode('[flipbook-popup id="paul"]<img src="http://beartruth.com/wp-content/uploads/2016/05/paul-link.jpg"/>[/flipbook-popup]'); ?>
+		
+<!-- 	<img src="<?php the_field('flipbook_graphic');?>"/> -->
 	
 	</div><!-- paul_link -->
 	
@@ -68,9 +70,9 @@ get_header(); ?>
 
 <div class="slide_flipbook">
 	
-<!-- 	<span class="slide_flipbook_close">Close X</span> -->
+
 	
-	<?php echo do_shortcode('[responsive-flipbook id="paul"]'); ?>
+	
 	
 </div><!-- slide_flipbook -->
 
