@@ -12148,6 +12148,26 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/plugins\/password-protect-plugin-for-wordpress\/screenshot-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13946,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/password-protect-plugin-for-wordpress\/screenshot-1.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/password-protect-plugin-for-wordpress\/screenshot-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/password-protect-plugin-for-wordpress\/wp_passprotect.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/password-protect-plugin-for-wordpress\/wp_passprotect.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/post-duplicator\/assets\/js\/pd-admin.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -24567,6 +24587,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/2016\/06\/Layer-0-1024x829.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116248,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/Layer-0-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/Layer-0-1024x829.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/06\/Layer-0-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5767,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/Layer-0-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/Layer-0-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/06\/Layer-0-300x243.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13975,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/Layer-0-300x243.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/Layer-0-300x243.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/06\/Layer-0-768x622.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69672,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/Layer-0-768x622.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/Layer-0-768x622.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/06\/Layer-0-940x198.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38410,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/Layer-0-940x198.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/Layer-0-940x198.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/06\/Layer-0.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 274241,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/Layer-0.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/Layer-0.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/2016\/06\/test_Page_01_Image_0001-1024x842.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -24629,72 +24715,6 @@
 		"initialSize": 248413,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_01_Image_0001.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_01_Image_0001.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_02_Image_0001-1024x830.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 107785,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_02_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_02_Image_0001-1024x830.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_02_Image_0001-150x150.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8905,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_02_Image_0001-150x150.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_02_Image_0001-150x150.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_02_Image_0001-300x243.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16395,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_02_Image_0001-300x243.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_02_Image_0001-300x243.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_02_Image_0001-768x622.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 66568,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_02_Image_0001-768x622.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_02_Image_0001-768x622.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_02_Image_0001-940x198.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 37580,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_02_Image_0001-940x198.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_02_Image_0001-940x198.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_02_Image_0001.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 398576,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_02_Image_0001.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_02_Image_0001.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -24765,6 +24785,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/2016\/06\/test_Page_04_Image_0001-1024x829.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 162452,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_04_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_04_Image_0001-1024x829.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/06\/test_Page_04_Image_0001-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7601,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_04_Image_0001-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_04_Image_0001-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/06\/test_Page_04_Image_0001-300x243.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22576,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_04_Image_0001-300x243.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_04_Image_0001-300x243.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/06\/test_Page_04_Image_0001-768x622.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109879,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_04_Image_0001-768x622.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_04_Image_0001-768x622.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/06\/test_Page_04_Image_0001-940x198.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48648,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_04_Image_0001-940x198.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_04_Image_0001-940x198.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/06\/test_Page_04_Image_0001.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 327828,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_04_Image_0001.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_04_Image_0001.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/2016\/06\/test_Page_05_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -24831,13 +24917,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_06_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_06_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 71896,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_06_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_06_Image_0001-1024x830.jpg",
+		"initialSize": 79494,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_06_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_06_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -24897,13 +24983,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_07_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_07_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 71138,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_07_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_07_Image_0001-1024x830.jpg",
+		"initialSize": 75848,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_07_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_07_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -24963,13 +25049,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_08_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_08_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 127809,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_08_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_08_Image_0001-1024x830.jpg",
+		"initialSize": 138598,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_08_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_08_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25029,13 +25115,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_09_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_09_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 174658,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_09_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_09_Image_0001-1024x830.jpg",
+		"initialSize": 190406,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_09_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_09_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25095,13 +25181,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_10_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_10_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 180762,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_10_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_10_Image_0001-1024x830.jpg",
+		"initialSize": 199674,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_10_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_10_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25161,13 +25247,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_11_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_11_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 223057,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_11_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_11_Image_0001-1024x830.jpg",
+		"initialSize": 245882,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_11_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_11_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25227,13 +25313,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_12_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_12_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 165606,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_12_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_12_Image_0001-1024x830.jpg",
+		"initialSize": 182224,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_12_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_12_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25293,13 +25379,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_13_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_13_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 172504,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_13_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_13_Image_0001-1024x830.jpg",
+		"initialSize": 188622,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_13_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_13_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25359,13 +25445,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_14_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_14_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 175083,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_14_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_14_Image_0001-1024x830.jpg",
+		"initialSize": 190456,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_14_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_14_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25425,13 +25511,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_15_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_15_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 175569,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_15_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_15_Image_0001-1024x830.jpg",
+		"initialSize": 192063,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_15_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_15_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25491,13 +25577,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_16_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_16_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 155459,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_16_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_16_Image_0001-1024x830.jpg",
+		"initialSize": 168703,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_16_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_16_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25557,13 +25643,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_17_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_17_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 199322,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_17_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_17_Image_0001-1024x830.jpg",
+		"initialSize": 216152,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_17_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_17_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25623,13 +25709,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_18_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_18_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 208217,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_18_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_18_Image_0001-1024x830.jpg",
+		"initialSize": 227498,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_18_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_18_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25689,13 +25775,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_19_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_19_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 185431,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_19_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_19_Image_0001-1024x830.jpg",
+		"initialSize": 205105,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_19_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_19_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25755,13 +25841,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_20_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_20_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 203828,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_20_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_20_Image_0001-1024x830.jpg",
+		"initialSize": 224453,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_20_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_20_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25821,13 +25907,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_21_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_21_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 172840,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_21_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_21_Image_0001-1024x830.jpg",
+		"initialSize": 186079,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_21_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_21_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25887,13 +25973,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_22_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_22_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 172996,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_22_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_22_Image_0001-1024x830.jpg",
+		"initialSize": 185569,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_22_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_22_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25953,13 +26039,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_23_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_23_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 199383,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_23_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_23_Image_0001-1024x830.jpg",
+		"initialSize": 219483,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_23_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_23_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -26019,13 +26105,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_24_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_24_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 197700,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_24_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_24_Image_0001-1024x830.jpg",
+		"initialSize": 215433,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_24_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_24_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -26085,13 +26171,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_25_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_25_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 196938,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_25_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_25_Image_0001-1024x830.jpg",
+		"initialSize": 213504,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_25_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_25_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -26151,13 +26237,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/uploads\/2016\/06\/test_Page_26_Image_0001-1024x830.jpg": {
+	"\/wp-content\/uploads\/2016\/06\/test_Page_26_Image_0001-1024x829.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 213228,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_26_Image_0001-1024x830.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_26_Image_0001-1024x830.jpg",
+		"initialSize": 230277,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_26_Image_0001-1024x829.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/06\/test_Page_26_Image_0001-1024x829.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
