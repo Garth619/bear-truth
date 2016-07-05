@@ -16,7 +16,12 @@ get_header(); ?>
 
 
 
-<div class="inner_banner">
+
+	
+	<?php if(! is_page(9)):?>
+	
+	<div class="inner_banner">
+	
 	
 	<?php if(get_field('banner')): ?>
 	
@@ -30,7 +35,11 @@ get_header(); ?>
 	
 	<?php endif; ?>
 	
-</div><!-- inner_banner -->
+	</div><!-- inner_banner -->
+	
+	<?php endif; ?>
+	
+
 
 <div class="inner_content">
 	
@@ -130,7 +139,7 @@ get_header(); ?>
   $temp = $wp_query; 
   $wp_query = null; 
   $wp_query = new WP_Query(); 
-  $wp_query->query('showposts=8&post_type=art'.'&paged='.$paged); 
+  $wp_query->query('showposts=8&post_type=operation_creation_blog'.'&paged='.$paged); 
 
   while ($wp_query->have_posts()) : $wp_query->the_post(); 
 ?>

@@ -19,11 +19,13 @@ get_header(); ?>
 		
 	<?php if(get_field('slideshow')): ?>
  
-		<div class="slideshow cycle-slideshow" data-cycle-prev=".prev" data-cycle-next=".next" data-cycle-pager=".my_pager" data-cycle-swipe=true data-cycle-swipe-fx=scrollHorz>
+		<div class="slideshow cycle-slideshow" data-cycle-prev=".prev" data-cycle-next=".next" data-cycle-pager=".my_pager" data-cycle-swipe=true data-cycle-swipe-fx=scrollHorz data-cycle-slides="> .slide_section">
  
 		<?php while(has_sub_field('slideshow')): ?>
  
-    	<img class="slide" src="<?php the_sub_field('image');?>"/>
+    	<a class="slide_section" href="<?php the_sub_field('link');?>">
+    		<img class="slide" src="<?php the_sub_field('image');?>"/>
+    	</a>
  
 			<?php endwhile; ?>
  

@@ -137,11 +137,11 @@ function my_jquery_enqueue() {
 	
 	
 	
-    	add_action('init', 'art');    
+    	add_action('init', 'operation_creation_blog');    
    	 
-	function art() {    
+	function operation_creation_blog() {    
     	$args = array(    
-        	'label' => __('Art Posts'),    
+        	'label' => __('Operation Creation Posts'),    
         	'singular_label' => __('Art Post'),    
         	'public' => true,    
         	'show_ui' => true,
@@ -152,9 +152,9 @@ function my_jquery_enqueue() {
         	'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )    
        	);    
    	 
-    	register_post_type( 'art' , $args );    
+    	register_post_type( 'operation_creation_blog' , $args );    
 	}    
-	register_taxonomy("art-cat", array("art"), array("hierarchical" => true, "label" => "Art Posts Cat", "singular_label" => "Art Post", "rewrite" => true)); 
+	register_taxonomy("operation-creation-cat", array("operation_creation_blog"), array("hierarchical" => true, "label" => "Operation Creation Posts Cat", "singular_label" => "Operation Creation Post", "rewrite" => true)); 
 	
 	
 	
