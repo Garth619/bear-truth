@@ -56,8 +56,8 @@ body.fadein {
 #content input,
 #content textarea {
 	color: #333;
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 17px;
+	line-height: 25px;
 }
 #content p,
 #content ul,
@@ -752,6 +752,27 @@ header {
 
 
 /* Paul */
+
+body.page-template-page-paul {
+	header {
+		margin-bottom: 0;
+	}
+	
+	#main {
+		width:100%;
+		max-width:100%;
+		padding:0;
+	}
+	.inner_banner img {
+    border-radius: 0px;
+    -moz-border-radius:0;
+    -webkit-border-radius:0px;
+	}
+	.inner_main {
+		max-width: 1060px;
+		margin:0 auto;
+	}
+}
 
 .embed-container {
 	position: relative;

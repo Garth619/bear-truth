@@ -20,7 +20,9 @@ get_header(); ?>
 	
 	<?php if(get_field('paul_top_banner')): ?>
 	
-		<img src="<?php the_field('paul_top_banner');?>"/>
+		<a href="<?php the_field('top_banner_link');?>" target="_blank">
+			<img src="<?php the_field('paul_top_banner');?>"/>
+		</a>
 		
 		
 		<?php else :?>
@@ -31,6 +33,8 @@ get_header(); ?>
 	<?php endif; ?>
 	
 </div><!-- inner_banner -->
+
+<div class="inner_main">
 
 <div class="inner_content">
 	
@@ -61,19 +65,40 @@ get_header(); ?>
 	<div class="paul_link">
 		
 		<?php echo do_shortcode('[flipbook-popup id="paul"]<img src="' . get_field('flipbook_graphic') . '"/>[/flipbook-popup]'); ?>
-		
-<!-- 	<img src="<?php the_field('flipbook_graphic');?>"/> -->
 	
 	</div><!-- paul_link -->
 	
 </div><!-- video_link_wrapper -->
 
 
+<div class="inner_content">
+	
+	<div id="content">
+
+	
+	<?php the_field('additional_text_box');?>
+	
+	
+	</div><!-- #content -->
+	
+	
+	
+	
+</div><!-- innner_content -->
+
+
+
+
+
+
+
 <div class="inner_banner">
 	
 	<?php if(get_field('middle_banner')): ?>
 	
-		<img src="<?php the_field('middle_banner');?>"/>
+		<a href="<?php the_field('middle_banner_link');?>" target="_blank">
+			<img src="<?php the_field('middle_banner');?>"/>
+		</a>
 		
 		
 		<?php else :?>
@@ -181,7 +206,7 @@ get_header(); ?>
 
 
 
-
+</div><!-- inner_main -->
 
 
 
