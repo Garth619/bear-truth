@@ -20,9 +20,9 @@ get_header(); ?>
 		<?php else :?>
 		
 		
-		<?php if(get_field('banner', 11)):?>
+		<?php if(get_field('banner', 13)):?>
 		
-			<img src="<?php the_field('banner', 11); ?>"/>
+			<img src="<?php the_field('banner', 13); ?>"/>
 		
 		<?php endif;?>
 		
@@ -41,20 +41,15 @@ get_header(); ?>
 			</div><!-- #content -->
 		</div><!-- inner_content -->
 
+
 <div class="main_feed">
 
 
-
-
+<h2>Related Posts</h2>
 	
-	<h2>Related Posts</h2>
-	
-	
-	
-
 <?php 
 	$currentID = get_the_ID();
-	$freebie_query = new WP_Query( array( 'post__not_in' => array($currentID), 'post_type' => 'main_blog','posts_per_page' => '40', 'order' => 'DSC' ) ); 
+	$freebie_query = new WP_Query( array( 'post__not_in' => array($currentID), 'post_type' => 'operation_creation','posts_per_page' => '40', 'order' => 'DSC' ) ); 
 	while($freebie_query->have_posts()) : $freebie_query->the_post(); ?>
 
 
@@ -64,6 +59,7 @@ get_header(); ?>
 
 <?php endwhile; ?>
 <?php wp_reset_postdata(); // reset the query ?>
+	
 
 
 

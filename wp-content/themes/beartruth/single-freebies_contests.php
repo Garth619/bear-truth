@@ -9,6 +9,7 @@
 
 get_header(); ?>
 
+<!--
 <div class="inner_banner">
 	
 	<?php if(get_field('banner')): ?>
@@ -29,7 +30,8 @@ get_header(); ?>
 	<?php endif; ?>
 
 	
-</div><!-- inner_banner -->
+</div>
+-->
 
 		<div class="inner_content">
 			<div id="content" role="main">
@@ -43,56 +45,23 @@ get_header(); ?>
 <div class="main_feed">
 
 
-
-
-	
-	<h2>Related Posts</h2>
+<h2>Related Posts</h2>
 	
 	
 	
 
 <?php 
-  $temp = $wp_query; 
-  $wp_query = null; 
-  $wp_query = new WP_Query(); 
-  $wp_query->query('showposts=8&post_type=freebies_contests'.'&paged='.$paged); 
-
-  while ($wp_query->have_posts()) : $wp_query->the_post(); 
-?>
+	$currentID = get_the_ID();
+	$freebie_query = new WP_Query( array( 'post__not_in' => array($currentID), 'post_type' => 'freebies_contests','posts_per_page' => '40', 'order' => 'DSC' ) ); 
+	while($freebie_query->have_posts()) : $freebie_query->the_post(); ?>
 
 
+<?php include('myloop.php');?>
+                	
 
 
-<div class="my_entry">
-		
-		<div class="my_entry_content">
-		
-			<h3><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
-			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</span>
-			<a class="learn_more" href="<?php the_permalink();?>">Learn More</a>
-		
-		</div><!-- my_entry_content -->
-		
-		<a href="<?php the_permalink();?>"><img class="entry_image" src="<?php bloginfo('template_directory');?>/images/entry.jpg"/></a>
-		
-		
-	</div><!-- my_entry -->
-
-
-  
 <?php endwhile; ?>
-
-<nav>
-    <?php previous_posts_link('&laquo; Newer') ?>
-    <?php next_posts_link('Older &raquo;') ?>
-</nav>
-
-<?php 
-  $wp_query = null; 
-  $wp_query = $temp;  // Reset
-?>
-
-
+<?php wp_reset_postdata(); // reset the query ?>
 
 
 

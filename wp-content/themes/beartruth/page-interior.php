@@ -91,20 +91,7 @@ get_header(); ?>
 
 
 
-<div class="my_entry">
-		
-		<div class="my_entry_content">
-		
-			<h3><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
-			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</span>
-			<a class="learn_more" href="<?php the_permalink();?>">Learn More</a>
-		
-		</div><!-- my_entry_content -->
-		
-		<a href="<?php the_permalink();?>"><img class="entry_image" src="<?php bloginfo('template_directory');?>/images/entry.jpg"/></a>
-		
-		
-	</div><!-- my_entry -->
+<?php include('myloop.php');?>
 
 
   
@@ -147,20 +134,7 @@ get_header(); ?>
 
 
 
-<div class="my_entry">
-		
-		<div class="my_entry_content">
-		
-			<h3><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
-			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</span>
-			<a class="learn_more" href="<?php the_permalink();?>">Learn More</a>
-		
-		</div><!-- my_entry_content -->
-		
-		<a href="<?php the_permalink();?>"><img class="entry_image" src="<?php bloginfo('template_directory');?>/images/entry.jpg"/></a>
-		
-		
-	</div><!-- my_entry -->
+<?php include('myloop.php');?>
 
 
   
@@ -202,21 +176,7 @@ get_header(); ?>
 
 
 
-<div class="my_entry">
-		
-		<div class="my_entry_content">
-		
-			<h3><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
-			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</span>
-			<a class="learn_more" href="<?php the_permalink();?>">Learn More</a>
-		
-		</div><!-- my_entry_content -->
-		
-		<a href="<?php the_permalink();?>"><img class="entry_image" src="<?php bloginfo('template_directory');?>/images/entry.jpg"/></a>
-		
-		
-	</div><!-- my_entry -->
-
+<?php include('myloop.php');?>
 
   
 <?php endwhile; ?>
