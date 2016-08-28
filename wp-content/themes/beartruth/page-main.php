@@ -15,6 +15,43 @@
 get_header(); ?>
 
 
+
+
+
+
+<?php if(is_mobile()):?>
+
+
+<div class="slideshow_wrapper">
+		
+	<?php if(get_field('mobile_slideshow')): ?>
+ 
+		<div class="slideshow cycle-slideshow" data-cycle-pager=".my_pager" data-cycle-swipe=true data-cycle-swipe-fx=scrollHorz data-cycle-slides="> .slide_section">
+ 
+		<?php while(has_sub_field('mobile_slideshow')): ?>
+ 
+    	<a class="slide_section" href="<?php the_sub_field('link');?>">
+    		<img class="slide" src="<?php the_sub_field('image');?>"/>
+    	</a>
+ 
+			<?php endwhile; ?>
+ 
+		</div><!-- cycle-slideshow -->
+	
+	<?php endif; ?>
+	
+	
+</div><!-- slideshow -->
+
+
+<?php endif;?><!-- mobile -->
+
+
+
+
+<?php if(!is_mobile()):?>
+
+
 <div class="slideshow_wrapper">
 		
 	<?php if(get_field('slideshow')): ?>
@@ -42,12 +79,11 @@ get_header(); ?>
 <?php endif; ?>
 	
 	
-	
-	
-			
-	
-	
 </div><!-- slideshow -->
+
+
+<?php endif;?><!-- desktop -->
+
 
 <div class="boxes">
 	
