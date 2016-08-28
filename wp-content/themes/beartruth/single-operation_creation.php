@@ -9,31 +9,7 @@
 
 get_header(); ?>
 
-<!--
-<div class="inner_banner">
-	
-	<?php if(get_field('banner')): ?>
-	
-		<img src="<?php the_field('banner');?>"/>
-		
-		
-		<?php else :?>
-		
-		
-		<?php if(get_field('banner', 13)):?>
-		
-			<img src="<?php the_field('banner', 13); ?>"/>
-		
-		<?php endif;?>
-		
-	
-	<?php endif; ?>
-
-	
-</div>
--->
-
-		<div class="inner_content">
+	<div class="inner_content">
 			<div id="content" role="main">
 
 			<?php get_template_part( 'loop', 'single' );?>

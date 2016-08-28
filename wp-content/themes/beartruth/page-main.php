@@ -96,9 +96,9 @@ get_header(); ?>
 
 <div class="main_feed">
 	
-	<h2>Some Title For the Feed</h2>
+	<h2>Blog Awesomeness</h2>
 	
-	<?php $mymain_query = new WP_Query( array( 'post_type' => array ( 'main_blog', 'operation_creation', 'freebies_contests' ),'posts_per_page' => '6', 'order' => 'DSC' ) ); while($mymain_query->have_posts()) : $mymain_query->the_post(); ?>
+	<?php $mymain_query = new WP_Query( array( 'post_type' => array ( 'operation_creation', 'freebies_contests' ),'posts_per_page' => '6', 'order' => 'DSC' ) ); while($mymain_query->have_posts()) : $mymain_query->the_post(); ?>
 	
 	
 <?php include('myloop.php');?>

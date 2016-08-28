@@ -114,25 +114,6 @@ function my_jquery_enqueue() {
 }
 
 
- 	// number one
-    	add_action('init', 'main_blog');    
-   	 
-	function main_blog() {    
-    	$args = array(    
-        	'label' => __('Main Blog Posts'),    
-        	'singular_label' => __('Main Blog Post'),    
-        	'public' => true,    
-        	'show_ui' => true,
-        	'has_archive' => true,	 
-        	'capability_type' => 'post',    
-        	'hierarchical' => false,    
-        	'rewrite' => true,    
-        	'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )    
-       	);    
-   	 
-    	register_post_type( 'main_blog' , $args );    
-	}    
-	register_taxonomy("main-blog-cat", array("main_blog"), array("hierarchical" => true, "label" => "Blog Posts Cat", "singular_label" => "Blog Post", "rewrite" => true)); 
 	
 	
 	
