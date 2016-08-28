@@ -22,7 +22,7 @@ get_header(); ?>
 <?php if(is_mobile()):?>
 
 
-<div class="slideshow_wrapper">
+<div class="slideshow_wrapper mobile">
 		
 	<?php if(get_field('mobile_slideshow')): ?>
  

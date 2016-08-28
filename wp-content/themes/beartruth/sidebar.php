@@ -12,7 +12,11 @@
 			
 			
 			
-			<h2>Join the Beartruth Collective Fan Club for freebies, contests, and other awesomeness!</h2>
+		<div class="sidebar_img">
+			
+			<img src="<?php bloginfo('template_directory');?>/images/join.jpg"/>
+			
+		</div><!-- sidebar_img -->
  
 	  <div class="form">
 		  <?php gravity_form( 2, false, false, false, '', true );?>
