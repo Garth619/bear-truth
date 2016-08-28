@@ -26,7 +26,7 @@ get_header(); ?>
 		
 	<?php if(get_field('mobile_slideshow')): ?>
  
-		<div class="slideshow cycle-slideshow" data-cycle-pager=".my_pager" data-cycle-swipe=true data-cycle-swipe-fx=scrollHorz data-cycle-slides="> .slide_section">
+		<div class="slideshow cycle-slideshow" data-cycle-pager=".my_pager" data-cycle-swipe=true data-cycle-swipe-fx=fade data-cycle-slides="> .slide_section">
  
 		<?php while(has_sub_field('mobile_slideshow')): ?>
  
