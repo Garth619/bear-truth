@@ -188,10 +188,53 @@ get_header(); ?>
 </div><!-- free_wrapper -->
 
 
+<div class="books_wrapper">
 
-
-
-
+	<div class="single_book_wrapper">
+	
+		<div class="book_cover_wrapper">
+		
+			<img src="<?php the_field('book_cover');?>"/>
+		
+		</div><!-- book_cover -->
+		
+		
+		<div class="book_info_wrapper">
+		
+			<img class="book_title" src="<?php the_field('book_info');?>"/>
+		
+			<a href="<?php the_field('book_link');?>" target="_blank">
+				<img class="copy_button" src="<?php bloginfo('template_directory');?>/images/copy.jpg"/>
+			</a>
+		
+		</div><!-- book_info_wrapper -->
+	
+	</div><!-- single_wrapper -->
+	
+	
+	<div class="single_book_wrapper">
+	
+		<div class="book_cover_wrapper">
+		
+			<img src="<?php the_field('book_cover2');?>"/>
+		
+		</div><!-- book_cover -->
+		
+		
+		<div class="book_info_wrapper">
+		
+			<img class="book_title" src="<?php the_field('book_info2');?>"/>
+		
+			<a href="<?php the_field('book_link2');?>" target="_blank">
+				<img class="copy_button" src="<?php bloginfo('template_directory');?>/images/copy.jpg"/>
+			</a>
+		
+		</div><!-- book_info_wrapper -->
+	
+	</div><!-- single_wrapper -->
+	
+	
+</div><!-- book_wrapper -->
 
 	
 	<div class="characters">

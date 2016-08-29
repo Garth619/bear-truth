@@ -785,6 +785,23 @@ header {
 
 /* Paul */
 
+
+.books_wrapper {
+	text-align: center;
+	.single_book_wrapper {
+		display: inline-block;
+		margin-top:45px;
+		padding:0 35px;
+		img {
+			max-width:100%;
+			height:auto;
+			display: block;
+			margin:0 auto 25px;
+		}
+		
+	}
+}
+
  
 #gform_submit_button_3 {
 		@include border-radius(3px);
@@ -1755,13 +1772,32 @@ body.page-id-11 #content, body.page-id-13 #content, body.page-id-15 #content {
 
 
 
+} /* Media Query */
 
 
 
+@media screen and (min-width: 1050px) {
 
 
-
+.books_wrapper {
+	
+	.single_book_wrapper {
+		overflow: hidden;
+		.book_cover_wrapper {
+			float:left;
+			width:50%;
+		}
+		
+		.book_info_wrapper {
+			float:left;
+			width:50%;
+		}
+		
+	}
 }
+
+
+} /* Media Query */
 
 
 @media screen and (min-width: 1150px) {

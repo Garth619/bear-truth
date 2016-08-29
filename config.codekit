@@ -23284,6 +23284,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/beartruth\/images\/book_title.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83312,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/book_title.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/book_title.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/beartruth\/images\/box1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -23313,6 +23324,39 @@
 		"initialSize": 60570,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/box3.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/box3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/beartruth\/images\/copy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16784,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/copy.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/copy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/beartruth\/images\/e-book-info.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47110,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/e-book-info.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/e-book-info.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/beartruth\/images\/e-book.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81456,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/e-book.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/e-book.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25759,6 +25803,94 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/2016\/05\/book1-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8056,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/book1-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/book1-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/05\/book1-300x250.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19473,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/book1-300x250.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/book1-300x250.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/05\/book1-352x198.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23363,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/book1-352x198.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/book1-352x198.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/05\/book1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 100430,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/book1.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/book1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/05\/book_title-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7396,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/book_title-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/book_title-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/05\/book_title-300x124.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12807,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/book_title-300x124.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/book_title-300x124.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/05\/book_title-521x198.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26629,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/book_title-521x198.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/book_title-521x198.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/05\/book_title.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83312,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/book_title.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/book_title.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/2016\/05\/box1-150x150.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -26360,6 +26492,94 @@
 		"initialSize": 232747,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/design-a-sticker-contest.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/design-a-sticker-contest.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/05\/e-book-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8143,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/e-book-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/e-book-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/05\/e-book-300x250.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19628,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/e-book-300x250.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/e-book-300x250.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/05\/e-book-352x198.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23541,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/e-book-352x198.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/e-book-352x198.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/05\/e-book-info-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4602,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/e-book-info-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/e-book-info-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/05\/e-book-info-300x124.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8694,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/e-book-info-300x124.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/e-book-info-300x124.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/05\/e-book-info-521x198.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17911,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/e-book-info-521x198.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/e-book-info-521x198.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/05\/e-book-info.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47110,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/e-book-info.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/e-book-info.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/05\/e-book.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81456,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/e-book.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/e-book.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
