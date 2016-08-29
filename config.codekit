@@ -23273,6 +23273,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/beartruth\/images\/book1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 100430,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/book1.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/beartruth\/images\/book1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/beartruth\/images\/box1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -26353,6 +26364,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/2016\/05\/free-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8442,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/free-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/free-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/05\/free-300x126.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12929,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/free-300x126.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/free-300x126.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/2016\/05\/Free-50-Pages-Sin-up-1-1024x293.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -26503,6 +26536,28 @@
 		"initialSize": 238736,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/Free-50-Pages-Sin-up.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/Free-50-Pages-Sin-up.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/05\/free-715x198.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35388,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/free-715x198.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/free-715x198.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/05\/free.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63648,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/free.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/05\/free.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

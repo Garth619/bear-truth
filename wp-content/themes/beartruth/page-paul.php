@@ -169,7 +169,7 @@ get_header(); ?>
 
 <div class="free_wrapper">
 
-	<img class="free" src="<?php bloginfo('template_directory');?>/images/free.jpg"/>
+	<img class="free" src="<?php the_field('download_banner');?>"/>
 	
 	<div class="free_form">
 		
@@ -185,23 +185,14 @@ get_header(); ?>
 	
 	</div><!-- free_form -->
 
-</div>
+</div><!-- free_wrapper -->
 
 
-<div class="inner_banner">
-	
-	<?php if(get_field('middle_banner')): ?>
-	
-		<a href="<?php the_field('middle_banner_link');?>" target="_blank">
-			<img src="<?php the_field('middle_banner');?>"/>
-		</a>
-		
-		
-				
-	
-	<?php endif; ?>
-	
-</div><!-- inner_banner -->
+
+
+
+
+
 	
 	<div class="characters">
 		
