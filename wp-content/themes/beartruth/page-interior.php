@@ -20,24 +20,53 @@ get_header(); ?>
 	
 	<?php if(! is_page(9)):?>
 	
-	<div class="inner_banner">
 	
-	
-	<?php if(get_field('banner')): ?>
-	
-		<img src="<?php the_field('banner');?>"/>
 		
 		
-		<?php else :?>
 		
-		<img src="<?php bloginfo('template_directory');?>/images/placeholder.png"/>
+		
+		
+		<?php if(!is_mobile()):?>
+	
+			<div class="inner_banner">
+	
+	
+				<?php if(get_field('banner')): ?>
+	
+					<img src="<?php the_field('banner');?>"/>
+		
+		
+				<?php endif;?><!-- banner -->
+	
+			</div><!-- inner_banner -->
+	
+	
+		<?php endif;?><!-- desktop -->
+		
+		
+		
+		<?php if(is_mobile()):?>
+	
+			<div class="inner_banner mobile">
+	
+	
+				<?php if(get_field('banner_mobile')): ?>
+	
+					<img src="<?php the_field('banner_mobile');?>"/>
+		
+		
+				<?php endif;?><!-- banner -->
+	
+			</div><!-- inner_banner -->
+	
+	
+		<?php endif;?><!-- desktop -->
+		
+		
 		
 	
-	<?php endif; ?>
 	
-	</div><!-- inner_banner -->
-	
-	<?php endif; ?>
+	<?php endif; ?><!-- all inner pages except id 9 -->
 	
 
 
@@ -74,7 +103,7 @@ get_header(); ?>
 
 
 	
-	<h2>Some Title For the Feed</h2>
+	<h2>Blog Awesomeness</h2>
 	
 	
 	

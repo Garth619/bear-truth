@@ -758,12 +758,21 @@ header {
 /* interior */
 
 .inner_banner {
+	
 	img {
 		max-width:100%;
 		height:auto;
 		
 	}
 	
+}
+
+.inner_banner.mobile {
+	margin:0 auto;
+	max-width:700px;
+	img {
+		
+	}
 }
 
 .inner_content {
