@@ -18,19 +18,36 @@ get_header(); ?>
 
 <div class="inner_banner">
 	
+	
+	<?php if(!is_mobile()):?>
+	
+	
 	<?php if(get_field('paul_top_banner')): ?>
 	
 		<a href="<?php the_field('top_banner_link');?>" target="_blank">
 			<img src="<?php the_field('paul_top_banner');?>"/>
 		</a>
 		
-		
-		<?php else :?>
-		
-		<img src="<?php bloginfo('template_directory');?>/images/placeholder.png"/>
-		
+	<?php endif; ?>
 	
 	<?php endif; ?>
+	
+	
+	
+	<?php if(is_mobile()):?>
+	
+	
+	<?php if(get_field('top_banner_mobile')): ?>
+	
+		<a href="<?php the_field('top_banner_link');?>" target="_blank">
+			<img src="<?php the_field('top_banner_mobile');?>"/>
+		</a>
+		
+	<?php endif; ?>
+	
+	<?php endif; ?>
+	
+	
 	
 </div><!-- inner_banner -->
 
@@ -41,15 +58,33 @@ get_header(); ?>
 	<div id="content">
 
 	<h1><?php the_title(); ?></h1>
+	
+	<img class="bar_titles" src="<?php the_field('bar_title_1');?>"/>
+	
 	<?php the_field('paul_content');?>
 	
+	
+	<?php if(!is_mobile()):?>
+	
+		<img class="bullets" src="<?php the_field('bullets_img');?>"/>
+	
+	<?php endif; ?>
+	
+	<?php if(is_mobile()):?>
+	
+		<img class="bullets" src="<?php the_field('bullets_image_mobile');?>"/>
+	
+	<?php endif; ?>
+	
+	<img class="macedonia" src="<?php bloginfo('template_directory');?>/images/macedonia-1.jpg"/>
 	
 	</div><!-- #content -->
 	
 	
-	
-	
 </div><!-- innner_content -->
+
+
+<img class="bar_titles" src="<?php the_field('bar_title_2');?>"/>
 
 
 <div class="video_link_wrapper">
@@ -71,25 +106,86 @@ get_header(); ?>
 </div><!-- video_link_wrapper -->
 
 
-<div class="inner_content">
-	
-	<div id="content">
-
-	
-	<?php the_field('additional_text_box');?>
-	
-	
-	</div><!-- #content -->
-	
-	
-	
-	
-</div><!-- innner_content -->
 
 
+<?php if(!is_mobile()):?>
+	
+		
+		<?php if(get_field('caption_slideshow')): ?>
+	
+			<div class="slideshow_wrapper">
+ 
+				<div class="slideshow cycle-slideshow" data-cycle-prev=".prev" data-cycle-next=".next" data-cycle-pager=".my_pager" data-cycle-swipe=true data-cycle-swipe-fx=scrollHorz>
+ 
+				<?php while(has_sub_field('caption_slideshow')): ?>
+ 
+    		<img class="slide" src="<?php the_sub_field('image');?>"/>
+ 
+				<?php endwhile; ?>
+ 
+			</div><!-- cycle-slideshow -->
+	
+			<div class="slide_controls">
+	
+				<div class="prev slide_buttons"><img src="<?php bloginfo('template_directory');?>/images/left.png"/></div>
+				<div class="next slide_buttons"><img src="<?php bloginfo('template_directory');?>/images/right.png"/></div>
+				<div class="my_pager"></div>
+   
+			</div><!-- slide_controls -->
+	
+		</div><!-- slideshow -->
+ 
+	<?php endif; ?><!-- repeater -->
+
+
+<?php endif;?><!-- desktop -->
 
 
 
+<?php if(is_mobile()):?>
+	
+		
+		<?php if(get_field('caption_slideshow_mobile')): ?>
+	
+			<div class="slideshow_wrapper" style="margin:0 auto; display:block;max-width:700px;">
+ 
+				<div class="slideshow cycle-slideshow"  data-cycle-pager=".my_pager" data-cycle-swipe=true data-cycle-swipe-fx=fade>
+ 
+				<?php while(has_sub_field('caption_slideshow_mobile')): ?>
+ 
+    		<img class="slide" src="<?php the_sub_field('image');?>"/>
+ 
+				<?php endwhile; ?>
+ 
+			</div><!-- cycle-slideshow -->
+	
+				
+		</div><!-- slideshow -->
+ 
+	<?php endif; ?><!-- repeater -->
+
+
+<?php endif;?><!-- desktop -->
+
+<div class="free_wrapper">
+
+	<img class="free" src="<?php bloginfo('template_directory');?>/images/free.jpg"/>
+	
+	<div class="free_form">
+		
+		<div class="free_form_inner">
+		
+		<?php gravity_form( 3, false, false, false, '', true );?>
+		
+		</div><!-- free_form_inner -->
+		
+		<p class="form_disclaimer">Your free full color PDF download will be sent to your e-mail shortly. Signing up will also automatically make you a new member you a new member  of the <span>Beartruth Fanclub</span>. You will receive additional freebies, contests, and other awesomeness in the future!!! No SPAM!</p>
+		
+		
+	
+	</div><!-- free_form -->
+
+</div>
 
 
 <div class="inner_banner">
@@ -101,10 +197,7 @@ get_header(); ?>
 		</a>
 		
 		
-		<?php else :?>
-		
-		<img src="<?php bloginfo('template_directory');?>/images/placeholder.png"/>
-		
+				
 	
 	<?php endif; ?>
 	
@@ -156,31 +249,8 @@ get_header(); ?>
 	
 	
 	
-	<div class="slideshow_wrapper">
-		
-	<?php if(get_field('caption_slideshow')): ?>
- 
-		<div class="slideshow cycle-slideshow" data-cycle-prev=".prev" data-cycle-next=".next" data-cycle-pager=".my_pager" data-cycle-swipe=true data-cycle-swipe-fx=scrollHorz>
- 
-		<?php while(has_sub_field('caption_slideshow')): ?>
- 
-    	<img class="slide" src="<?php the_sub_field('image');?>"/>
- 
-			<?php endwhile; ?>
- 
-		</div><!-- cycle-slideshow -->
 	
-	<div class="slide_controls">
-	
-		<div class="prev slide_buttons"><img src="<?php bloginfo('template_directory');?>/images/left.png"/></div>
-		<div class="next slide_buttons"><img src="<?php bloginfo('template_directory');?>/images/right.png"/></div>
-		<div class="my_pager"></div>
-   
-	</div><!-- slide_controls -->
- 
-<?php endif; ?>
-	
-</div><!-- slideshow -->
+
 	
 
 <div class="paul_boxes">
