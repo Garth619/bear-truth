@@ -290,15 +290,29 @@ get_header(); ?>
 <div class="paul_boxes">
 	
 	<a href="<?php the_field('box1_link');?>">
-		<img src="<?php the_field('box_1');?>">
+		<img class="paul_single_box" src="<?php the_field('box_1');?>">
 	</a>
 	<a href="<?php the_field('box2_link');?>">
-		<img src="<?php the_field('box_2');?>">
+		<img class="paul_single_box" src="<?php the_field('box_2');?>">
 	</a>
 	
-	<a href="<?php the_field('box3_link');?>">
-		<img class="last_box" src="<?php the_field('box_3');?>">
-	</a>
+	<div class="box_3_form_wrapper">
+			
+		<div class="box_3_form_img">
+			
+			<img src="<?php bloginfo('template_directory');?>/images/join.jpg"/>
+			
+		</div><!-- box_3_form_img -->
+ 
+	 <div class="form">
+		 <?php gravity_form( 4, false, false, false, '', true );?>
+	</div><!-- form -->
+	
+
+			
+			
+			
+		</div><!-- sidebar -->
 	
 </div><!-- paul_boxes -->
 
