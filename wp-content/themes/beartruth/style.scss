@@ -1278,12 +1278,92 @@ li#field_1_6 label.gfield_label {
 			}
 		}
 	}
+	
+	
+	.mission_mobile, .mission_desktop {
+		max-width:100%;
+		height:auto;
+		margin:0 auto;
+		display: block;
+	}
+	
+	.team_member_wrapper {
+		margin-top:35px;
+		.single_member_wrapper {
+			margin-bottom:25px;
+			.team_img_wrapper {
+				img {
+					max-width:100%;
+					height:auto;
+				}
+			}
+			.team_content_wrapper {
+				
+				span.team_title {
+					display:block;
+					margin:20px 0;
+					text-align: center;
+					font-weight:bold;
+				}
+				p {
+					
+				}
+			}
+		}
+	}
+	
+	
+	.bottom_mission_content {
+		margin:35px 0;
+	}
  
 
 
 @media screen and (min-width: 645px) {
 	
 
+	
+	
+	
+	
+	.team_member_wrapper {
+		
+		.single_member_wrapper {
+			overflow: hidden;
+			margin-bottom:45px;
+			.team_img_wrapper {
+				width:30%;
+				float:left;
+				img {
+					
+				}
+			}
+			.team_content_wrapper {
+				width:70%;
+				float:left;
+				padding-left:20px;
+				
+				span.team_title {
+					margin-top:0;
+					text-align: left;
+				}
+				p {
+					
+				}
+			}
+		}
+	}
+ 
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	.charater_img_wrapper {
 		img {
 			 max-width: 49%;
