@@ -146,7 +146,7 @@ get_header(); ?>
 
 
 	
-	<h2>Some Title For the Feed</h2>
+	<h2>Recent Posts</h2>
 	
 	
 	
@@ -188,7 +188,7 @@ get_header(); ?>
 
 
 	
-	<h2>Some Title For the Feed</h2>
+	<h2>Recent Posts</h2>
 	
 	
 	

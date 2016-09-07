@@ -1293,8 +1293,10 @@ li#field_1_6 label.gfield_label {
 			margin-bottom:25px;
 			.team_img_wrapper {
 				img {
-					max-width:100%;
-					height:auto;
+					display: block;
+					height: auto;
+					margin: 0 auto;
+					max-width: 100%
 				}
 			}
 			.team_content_wrapper {

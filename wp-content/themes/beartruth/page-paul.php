@@ -179,7 +179,7 @@ get_header(); ?>
 		
 		</div><!-- free_form_inner -->
 		
-		<p class="form_disclaimer">Your free full color PDF download will be sent to your e-mail shortly. Signing up will also automatically make you a new member you a new member  of the <span>Beartruth Fanclub</span>. You will receive additional freebies, contests, and other awesomeness in the future!!! No SPAM!</p>
+		<p class="form_disclaimer">Your free full color PDF download will be sent to your e-mail shortly. Signing up will also automatically make you a new member of the <span>Beartruth Fanclub</span>. You will receive additional freebies, contests, and other awesomeness in the future!!! No SPAM!</p>
 		
 		
 	
