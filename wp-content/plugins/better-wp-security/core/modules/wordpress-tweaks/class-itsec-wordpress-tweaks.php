@@ -2,62 +2,62 @@
 
 final class ITSEC_WordPress_Tweaks {
 	private static $instance = false;
-	
+
 	private $config_hooks_added = false;
 	private $settings;
 	private $first_xmlrpc_credentials;
-	
-	
+
+
 	private function __construct() {
 		$this->init();
 	}
-	
+
 	public static function get_instance() {
 		if ( ! self::$instance ) {
 			self::$instance = new self;
 		}
-		
+
 		return self::$instance;
 	}
-	
+
 	public static function activate() {
 		$self = self::get_instance();
-		
+
 		$self->add_config_hooks();
 		ITSEC_Response::regenerate_server_config();
 		ITSEC_Response::regenerate_wp_config();
 	}
-	
+
 	public static function deactivate() {
 		$self = self::get_instance();
-		
+
 		$self->remove_config_hooks();
 		ITSEC_Response::regenerate_server_config();
 		ITSEC_Response::regenerate_wp_config();
 	}
-	
+
 	public function add_config_hooks() {
 		if ( $this->config_hooks_added ) {
 			return;
 		}
-		
+
 		add_filter( 'itsec_filter_apache_server_config_modification', array( $this, 'filter_apache_server_config_modification' ) );
 		add_filter( 'itsec_filter_nginx_server_config_modification', array( $this, 'filter_nginx_server_config_modification' ) );
 		add_filter( 'itsec_filter_litespeed_server_config_modification', array( $this, 'filter_litespeed_server_config_modification' ) );
 		add_filter( 'itsec_filter_wp_config_modification', array( $this, 'filter_wp_config_modification' ) );
-		
+
 		$this->config_hooks_added = true;
 	}
-	
+
 	public function remove_config_hooks() {
 		remove_filter( 'itsec_filter_apache_server_config_modification', array( $this, 'filter_apache_server_config_modification' ) );
 		remove_filter( 'itsec_filter_nginx_server_config_modification', array( $this, 'filter_nginx_server_config_modification' ) );
 		remove_filter( 'itsec_filter_litespeed_server_config_modification', array( $this, 'filter_litespeed_server_config_modification' ) );
 		remove_filter( 'itsec_filter_wp_config_modification', array( $this, 'filter_wp_config_modification' ) );
-		
+
 		$this->config_hooks_added = false;
 	}
-	
+
 	public function init() {
 		$this->add_config_hooks();
 
@@ -95,6 +95,8 @@ final class ITSEC_WordPress_Tweaks {
 			add_filter( 'xmlrpc_methods', array( $this, 'xmlrpc_methods' ) );
 		}
 
+		add_filter( 'rest_authentication_errors', array( $this, 'filter_rest_authentication_errors' ), 50 );
+
 		if ( $this->settings['safe_jquery'] ) {
 			add_action( 'wp_enqueue_scripts', array( $this, 'current_jquery' ) );
 		}
@@ -114,6 +116,31 @@ final class ITSEC_WordPress_Tweaks {
 			add_action( 'template_redirect', array( $this, 'disable_unused_author_pages' ) );
 		}
 
+		if ( $this->settings['block_tabnapping'] ) {
+			add_action( 'wp_enqueue_scripts', array( $this, 'add_block_tabnapping_script' ) );
+			add_action( 'admin_enqueue_scripts', array( $this, 'add_block_tabnapping_script' ) );
+		}
+	}
+
+	public function filter_rest_authentication_errors( $error ) {
+		if ( 'disable' === $this->settings['rest_api'] ) {
+			return new WP_Error( 'itsec_wt_rest_api_disabled', esc_html__( 'The REST API is disabled on this site.', 'better-wp-security' ), array( 'status' => 403 ) );
+		}
+
+		if ( 'require-admin' === $this->settings['rest_api'] ) {
+			require_once( ITSEC_Core::get_core_dir() . '/lib/class-itsec-lib-canonical-roles.php' );
+
+			if ( ! ITSEC_Lib_Canonical_Roles::is_user_at_least( 'administrator' ) ) {
+				return new WP_Error( 'itsec_wt_rest_api_requires_admin', esc_html__( 'You are not authorized to access the REST API on this site.', 'better-wp-security' ), array( 'status' => 403 ) );
+			}
+		}
+
+		return $error;
+	}
+
+	public function add_block_tabnapping_script() {
+		wp_enqueue_script( 'blankshield', plugins_url( 'js/blankshield/blankshield.min.js', __FILE__ ), array(), ITSEC_Core::get_plugin_build(), true );
+		wp_enqueue_script( 'itsec-wt-block-tabnapping', plugins_url( 'js/block-tabnapping.js', __FILE__ ), array( 'blankshield' ), ITSEC_Core::get_plugin_build(), true );
 	}
 
 	public function block_multiauth_attempts( $filter_val, $username, $password ) {
@@ -122,14 +149,14 @@ final class ITSEC_WordPress_Tweaks {
 				$username,
 				$password
 			);
-			
-			return $filter_var;
+
+			return $filter_val;
 		}
-		
+
 		if ( $username === $this->first_xmlrpc_credentials[0] && $password === $this->first_xmlrpc_credentials[1] ) {
-			return $filter_var;
+			return $filter_val;
 		}
-		
+
 		status_header( 405 );
 		header( 'Content-Type: text/plain' );
 		die( __( 'XML-RPC services are disabled on this site.' ) );
@@ -145,7 +172,7 @@ final class ITSEC_WordPress_Tweaks {
 			wp_deregister_script( 'jquery-core' );
 
 			wp_register_script( 'jquery', false, array( 'jquery-core', 'jquery-migrate' ), '1.11.0' );
-			wp_register_script( 'jquery-core', '/wp-includes/js/jquery/jquery.js', false, '1.11.0' );
+			wp_register_script( 'jquery-core', '/' . WPINC . '/js/jquery/jquery.js', false, '1.11.0' );
 
 			wp_enqueue_script( 'jquery' );
 			wp_enqueue_script( 'jquery-core' );
@@ -217,11 +244,11 @@ final class ITSEC_WordPress_Tweaks {
 	 */
 	function store_jquery_version() {
 		global $wp_scripts;
-		
+
 		if ( ( is_home() || is_front_page() ) && is_user_logged_in() ) {
 			$stored_jquery_version = ITSEC_Modules::get_setting( 'wordpress-tweaks', 'jquery_version' );
 			$current_jquery_version = $wp_scripts->registered['jquery']->ver;
-			
+
 			if ( $current_jquery_version !== $stored_jquery_version ) {
 				ITSEC_Modules::set_setting( 'wordpress-tweaks', 'jquery_version', $current_jquery_version );
 			}
@@ -288,25 +315,25 @@ final class ITSEC_WordPress_Tweaks {
 
 	public function filter_wp_config_modification( $modification ) {
 		require_once( dirname( __FILE__ ) . '/config-generators.php' );
-		
+
 		return ITSEC_WordPress_Tweaks_Config_Generators::filter_wp_config_modification( $modification );
 	}
-	
+
 	public function filter_apache_server_config_modification( $modification ) {
 		require_once( dirname( __FILE__ ) . '/config-generators.php' );
-		
+
 		return ITSEC_WordPress_Tweaks_Config_Generators::filter_apache_server_config_modification( $modification );
 	}
-	
+
 	public function filter_nginx_server_config_modification( $modification ) {
 		require_once( dirname( __FILE__ ) . '/config-generators.php' );
-		
+
 		return ITSEC_WordPress_Tweaks_Config_Generators::filter_nginx_server_config_modification( $modification );
 	}
-	
+
 	public function filter_litespeed_server_config_modification( $modification ) {
 		require_once( dirname( __FILE__ ) . '/config-generators.php' );
-		
+
 		return ITSEC_WordPress_Tweaks_Config_Generators::filter_litespeed_server_config_modification( $modification );
 	}
 }

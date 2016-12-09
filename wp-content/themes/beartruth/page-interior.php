@@ -80,7 +80,7 @@ get_header(); ?>
 	
 	</div><!-- #content -->
 	
-	<?php if(is_page(array(11,13,15))):?>
+	<?php if(is_page(array(13,15))):?>
 	
 	
 	<div class="inner_video">
@@ -94,16 +94,16 @@ get_header(); ?>
 	
 </div><!-- innner_content -->
 
-<?php if(is_page(array(11,13,15))):?><!-- this is for the sidbear -->
+<?php if(is_page(array(863,13,15))):?><!-- this is for the sidbear -->
 
 
 <div class="main_feed">
 
-<?php if(is_page(11)):?>
+<?php if(is_page(863)):?>
 
 
 	
-	<h2>Blog Awesomeness</h2>
+	<h2>Recent Posts</h2>
 	
 	
 	
@@ -112,7 +112,7 @@ get_header(); ?>
   $temp = $wp_query; 
   $wp_query = null; 
   $wp_query = new WP_Query(); 
-  $wp_query->query('showposts=8&post_type=main_blog'.'&paged='.$paged); 
+  $wp_query->query('showposts=8&post_type=news'.'&paged='.$paged); 
 
   while ($wp_query->have_posts()) : $wp_query->the_post(); 
 ?>

@@ -228,10 +228,11 @@ class GF_Field_FileUpload extends GF_Field {
 				//  MAX_FILE_SIZE > 2048MB fails. The file size is checked anyway once uploaded, so it's not necessary.
 				$upload = sprintf( "<input type='hidden' name='MAX_FILE_SIZE' value='%d' />", $max_upload_size );
 			}
-			$upload .= sprintf( "<input name='input_%d' id='%s' type='file' class='%s' aria-describedby='extensions_message' {$tabindex} %s/>", $id, $field_id, esc_attr( $class ), $disabled_text );
+			$upload .= sprintf( "<input name='input_%d' id='%s' type='file' class='%s' aria-describedby='extensions_message' onchange='javascript:gformValidateFileSize( this, %s );' {$tabindex} %s/>", $id, $field_id, esc_attr( $class ), esc_attr( $max_upload_size ), $disabled_text );
 
 			if ( ! $is_admin ) {
 				$upload .= "<span id='extensions_message' class='screen-reader-text'>{$extensions_message}</span>";
+				$upload .= "<div class='validation_message'></div>";
 			}
 		}
 
@@ -452,6 +453,28 @@ class GF_Field_FileUpload extends GF_Field {
 		return $output;
 	}
 
+	/**
+	 * Gets merge tag values.
+	 *
+	 * @since  Unknown
+	 * @access public
+	 *
+	 * @uses GF_Field::get_modifiers()
+	 * @uses GF_Field_FileUpload::get_download_url()
+	 *
+	 * @param array|string $value      The value of the input.
+	 * @param string       $input_id   The input ID to use.
+	 * @param array        $entry      The Entry Object.
+	 * @param array        $form       The Form Object
+	 * @param string       $modifier   The modifier passed.
+	 * @param array|string $raw_value  The raw value of the input.
+	 * @param bool         $url_encode If the result should be URL encoded.
+	 * @param bool         $esc_html   If the HTML should be escaped.
+	 * @param string       $format     The format that the value should be.
+	 * @param bool         $nl2br      If the nl2br function should be used.
+	 *
+	 * @return string The processed merge tag.
+	 */
 	public function get_value_merge_tag( $value, $input_id, $entry, $form, $modifier, $raw_value, $url_encode, $esc_html, $format, $nl2br ) {
 
 		$force_download = in_array( 'download', $this->get_modifiers() );

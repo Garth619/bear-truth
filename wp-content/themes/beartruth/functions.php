@@ -118,6 +118,30 @@ function my_jquery_enqueue() {
 	
 	
 	
+add_action('init', 'news');    
+   	 
+	function news() {    
+    	$args = array(    
+        	'label' => __('News'),    
+        	'singular_label' => __('News Post'),    
+        	'public' => true,    
+        	'show_ui' => true,
+        	'has_archive' => true,	 
+        	'capability_type' => 'post',    
+        	'hierarchical' => false,    
+        	'rewrite' => true,    
+        	'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )    
+       	);    
+   	 
+    	register_post_type( 'news' , $args );    
+	}    
+	register_taxonomy("news-cat", array("news"), array("hierarchical" => true, "label" => "News Cat", "singular_label" => "News Post", "rewrite" => true)); 
+	
+	
+	
+	
+	
+	
     	add_action('init', 'operation_creation');    
    	 
 	function operation_creation() {    
