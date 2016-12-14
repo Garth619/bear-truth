@@ -98,7 +98,7 @@ get_header(); ?>
 	
 	<h2>Blog Awesomeness</h2>
 	
-	<?php $mymain_query = new WP_Query( array( 'post_type' => array ( 'operation_creation', 'freebies_contests' ),'posts_per_page' => '6', 'order' => 'DSC' ) ); while($mymain_query->have_posts()) : $mymain_query->the_post(); ?>
+	<?php $mymain_query = new WP_Query( array( 'post_type' => array ('news', 'operation_creation', 'freebies_contests' ),'posts_per_page' => '6', 'order' => 'DSC' ) ); while($mymain_query->have_posts()) : $mymain_query->the_post(); ?>
 	
 	
 <?php include('myloop.php');?>
