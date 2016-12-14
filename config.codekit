@@ -20828,6 +20828,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/wordpress-seo\/admin\/views\/tabs\/dashboard\/site-analysis.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/admin\/views\/tabs\/dashboard\/site-analysis.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/wordpress-seo\/admin\/views\/tabs\/dashboard\/webmaster-tools.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -21242,20 +21251,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/metabox-380-rtl.css": {
+	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/metabox-400-rtl.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/metabox-380-rtl.css",
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/metabox-400-rtl.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/metabox-380-rtl.min.css": {
+	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/metabox-400-rtl.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/metabox-380-rtl.min.css",
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/metabox-400-rtl.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -21323,24 +21332,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/toggle-switch-330-rtl.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/toggle-switch-330-rtl.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/toggle-switch-330-rtl.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/toggle-switch-330-rtl.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/toggle-switch-390-rtl.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -21377,38 +21368,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yoast-components-371-rtl.css": {
+	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yoast-components-400-rtl.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yoast-components-371-rtl.css",
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yoast-components-400-rtl.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yoast-components-371-rtl.min.css": {
+	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yoast-components-400-rtl.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yoast-components-371-rtl.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yoast-extensions-370-rtl.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yoast-extensions-370-rtl.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yoast-extensions-370-rtl.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yoast-extensions-370-rtl.min.css",
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yoast-components-400-rtl.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -21431,56 +21404,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_plugin_tools-380-rtl.css": {
+	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_plugin_tools-400-rtl.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_plugin_tools-380-rtl.css",
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_plugin_tools-400-rtl.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_plugin_tools-380-rtl.min.css": {
+	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_plugin_tools-400-rtl.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_plugin_tools-380-rtl.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_plugin_tools-390-rtl.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_plugin_tools-390-rtl.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_plugin_tools-390-rtl.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_plugin_tools-390-rtl.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_seo_score-330-rtl.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_seo_score-330-rtl.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_seo_score-330-rtl.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_seo_score-330-rtl.min.css",
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_plugin_tools-400-rtl.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -21530,15 +21467,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/index.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/index.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp-content\/plugins\/wordpress-seo\/css\/inside-editor-331.min.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -21557,11 +21485,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/metabox-380.min.css": {
+	"\/wp-content\/plugins\/wordpress-seo\/css\/metabox-400.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/metabox-380.min.css",
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/metabox-400.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -21593,15 +21521,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/toggle-switch-330.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/toggle-switch-330.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp-content\/plugins\/wordpress-seo\/css\/toggle-switch-390.min.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -21629,20 +21548,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/yoast-components-371.min.css": {
+	"\/wp-content\/plugins\/wordpress-seo\/css\/yoast-components-400.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/yoast-components-371.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/yoast-extensions-370.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/yoast-extensions-370.min.css",
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/yoast-components-400.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -21656,29 +21566,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/yst_plugin_tools-380.min.css": {
+	"\/wp-content\/plugins\/wordpress-seo\/css\/yst_plugin_tools-400.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/yst_plugin_tools-380.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/yst_plugin_tools-390.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/yst_plugin_tools-390.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/yst_seo_score-330.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/yst_seo_score-330.min.css",
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/css\/yst_plugin_tools-400.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -21873,6 +21765,17 @@
 		"initialSize": 79592,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/images\/banner\/premium-seo.png",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/images\/banner\/premium-seo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/wordpress-seo\/images\/banner\/seo-care.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77201,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/images\/banner\/seo-care.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/images\/banner\/seo-care.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -22389,12 +22292,12 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/configuration-wizard-380.min.js": {
+	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/configuration-wizard-400.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/configuration-wizard-380.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/configuration-wizard-380.min-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/configuration-wizard-400.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/configuration-wizard-400.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -22939,12 +22842,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-admin-380.min.js": {
+	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-admin-400.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-admin-380.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-admin-380.min-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-admin-400.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-admin-400.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -23016,12 +22919,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-metabox-390.min.js": {
+	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-metabox-400.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-metabox-390.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-metabox-390.min-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-metabox-400.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-metabox-400.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -23038,23 +22941,23 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-post-scraper-390.min.js": {
+	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-post-scraper-400.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-post-scraper-390.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-post-scraper-390.min-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-post-scraper-400.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-post-scraper-400.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-recalculate-390.min.js": {
+	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-recalculate-400.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-recalculate-390.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-recalculate-390.min-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-recalculate-400.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-recalculate-400.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -23082,12 +22985,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-term-scraper-390.min.js": {
+	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-term-scraper-400.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-term-scraper-390.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-term-scraper-390.min-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-term-scraper-400.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-term-scraper-400.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -23749,6 +23652,35 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
+	"\/wp-content\/plugins\/wordpress-seo\/languages\/yoast-components.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/languages\/yoast-components.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wordpress-seo\/languages\/yoast-seo-js.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/languages\/yoast-seo-js.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/languages\/yoast-seo-js-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/wp-content\/plugins\/wordpress-seo\/languages\/yoast-seo-js.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/languages\/yoast-seo-js.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/wordpress-seo\/vendor\/autoload.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -24108,6 +24040,27 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wordpress-seo\/vendor\/yoast\/license-manager\/CHANGELOG.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/vendor\/yoast\/license-manager\/CHANGELOG.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/vendor\/yoast\/license-manager\/CHANGELOG.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/wp-content\/plugins\/wordpress-seo\/vendor\/yoast\/license-manager\/class-api-request.php": {
 		"fileType": 8192,
